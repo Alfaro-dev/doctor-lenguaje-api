@@ -1,0 +1,266 @@
+{
+    "level_b1": {
+      "modules": [
+        {
+          "module": "Developing Communication Skills",
+          "description": "Enhancing communication skills in various contexts",
+          "lessons": [
+            {
+              "title": "Making Small Talk",
+              "grammar": "Phrasal Verbs"
+            },
+            {
+              "title": "Describing Experiences",
+              "grammar": "Past Continuous and Past Perfect"
+            },
+            {
+              "title": "Talking About Future Plans",
+              "grammar": "Future Perfect and Future Continuous"
+            },
+            {
+              "title": "Expressing Opinions",
+              "grammar": "Linking Words"
+            },
+            {
+              "title": "Narrating Stories",
+              "grammar": "Reported Speech"
+            }
+          ]
+        },
+        {
+          "module": "Work and Career",
+          "description": "Discussing work, career, and professional development",
+          "lessons": [
+            {
+              "title": "Job Interviews",
+              "grammar": "Indirect Questions"
+            },
+            {
+              "title": "Writing a CV",
+              "grammar": "Formal Writing"
+            },
+            {
+              "title": "Office Etiquette",
+              "grammar": "Modal Verbs for Advice and Necessity"
+            },
+            {
+              "title": "Networking",
+              "grammar": "Conditionals (First and Second)"
+            },
+            {
+              "title": "Handling Workplace Issues",
+              "grammar": "Passive Voice"
+            }
+          ]
+        },
+        {
+          "module": "Health and Lifestyle",
+          "description": "Discussing health, wellness, and lifestyle choices",
+          "lessons": [
+            {
+              "title": "Healthy Living",
+              "grammar": "Gerunds and Infinitives"
+            },
+            {
+              "title": "Dealing with Stress",
+              "grammar": "Expressions of Quantity"
+            },
+            {
+              "title": "Diet and Nutrition",
+              "grammar": "Relative Clauses"
+            },
+            {
+              "title": "Exercise Routines",
+              "grammar": "Adverbs of Manner"
+            },
+            {
+              "title": "Mental Health",
+              "grammar": "Collocations"
+            }
+          ]
+        },
+        {
+          "module": "Travel and Adventure",
+          "description": "Planning and discussing travel and adventures",
+          "lessons": [
+            {
+              "title": "Travel Preparations",
+              "grammar": "Future in the Past"
+            },
+            {
+              "title": "Describing Destinations",
+              "grammar": "Comparatives and Superlatives"
+            },
+            {
+              "title": "Travel Experiences",
+              "grammar": "Narrative Tenses"
+            },
+            {
+              "title": "Booking Accommodation",
+              "grammar": "Formal and Informal Requests"
+            },
+            {
+              "title": "Adventure Sports",
+              "grammar": "Expressing Preferences"
+            }
+          ]
+        },
+        {
+          "module": "Education and Learning",
+          "description": "Discussing various aspects of education and learning",
+          "lessons": [
+            {
+              "title": "Choosing a Course",
+              "grammar": "Infinitive of Purpose"
+            },
+            {
+              "title": "Learning Styles",
+              "grammar": "Contrast Clauses"
+            },
+            {
+              "title": "Studying Abroad",
+              "grammar": "Future Continuous and Future Perfect"
+            },
+            {
+              "title": "Classroom Interactions",
+              "grammar": "Indirect Speech"
+            },
+            {
+              "title": "Exams and Assessments",
+              "grammar": "Relative Pronouns"
+            }
+          ]
+        },
+        {
+          "module": "Culture and Society",
+          "description": "Exploring cultural and societal topics",
+          "lessons": [
+            {
+              "title": "Cultural Differences",
+              "grammar": "Comparative Structures"
+            },
+            {
+              "title": "Social Issues",
+              "grammar": "Passive Voice"
+            },
+            {
+              "title": "Festivals and Traditions",
+              "grammar": "Relative Clauses"
+            },
+            {
+              "title": "Media Influence",
+              "grammar": "Reported Speech"
+            },
+            {
+              "title": "Technology in Society",
+              "grammar": "Conditionals (Third)"
+            }
+          ]
+        },
+        {
+          "module": "Shopping and Consumerism",
+          "description": "Discussing shopping habits and consumer culture",
+          "lessons": [
+            {
+              "title": "Shopping Online",
+              "grammar": "Modals of Probability"
+            },
+            {
+              "title": "Consumer Rights",
+              "grammar": "Reported Speech"
+            },
+            {
+              "title": "Comparing Products",
+              "grammar": "Comparatives and Superlatives"
+            },
+            {
+              "title": "Advertising Techniques",
+              "grammar": "Causative Structures"
+            },
+            {
+              "title": "Making Complaints",
+              "grammar": "Conditionals (First and Second)"
+            }
+          ]
+        },
+        {
+          "module": "Entertainment and Leisure",
+          "description": "Discussing entertainment and leisure activities",
+          "lessons": [
+            {
+              "title": "Going to the Theatre",
+              "grammar": "Expressing Preferences"
+            },
+            {
+              "title": "Music Festivals",
+              "grammar": "Past Perfect"
+            },
+            {
+              "title": "Sports Events",
+              "grammar": "Future Continuous"
+            },
+            {
+              "title": "Reading Habits",
+              "grammar": "Relative Clauses"
+            },
+            {
+              "title": "Video Games",
+              "grammar": "Modals of Ability"
+            }
+          ]
+        },
+        {
+          "module": "Technology and Innovation",
+          "description": "Discussing technology and its impact",
+          "lessons": [
+            {
+              "title": "Latest Gadgets",
+              "grammar": "Present Perfect"
+            },
+            {
+              "title": "Social Media",
+              "grammar": "Future Continuous"
+            },
+            {
+              "title": "Online Privacy",
+              "grammar": "Passive Voice"
+            },
+            {
+              "title": "Tech Innovations",
+              "grammar": "Relative Clauses"
+            },
+            {
+              "title": "Working Remotely",
+              "grammar": "Modals of Permission"
+            }
+          ]
+        },
+        {
+          "module": "Environment and Sustainability",
+          "description": "Discussing environmental issues and sustainability",
+          "lessons": [
+            {
+              "title": "Climate Change",
+              "grammar": "Second Conditional"
+            },
+            {
+              "title": "Sustainable Living",
+              "grammar": "Third Conditional"
+            },
+            {
+              "title": "Recycling Practices",
+              "grammar": "Passive Voice"
+            },
+            {
+              "title": "Protecting Wildlife",
+              "grammar": "Modals of Obligation"
+            },
+            {
+              "title": "Environmental Campaigns",
+              "grammar": "Reported Speech"
+            }
+          ]
+        }
+      ]
+    }
+  }

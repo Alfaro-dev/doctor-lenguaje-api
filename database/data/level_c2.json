@@ -1,0 +1,266 @@
+{
+    "level_c2": {
+        "modules": [
+            {
+                "module": "Advanced Vocabulary and Idioms",
+                "description": "Mastering complex vocabulary and idiomatic expressions",
+                "lessons": [
+                    {
+                        "title": "Idiomatic Expressions I",
+                        "grammar": "Idioms and their usage"
+                    },
+                    {
+                        "title": "Advanced Adjectives",
+                        "grammar": "Descriptive language"
+                    },
+                    {
+                        "title": "Nuanced Vocabulary",
+                        "grammar": "Subtle differences in meaning"
+                    },
+                    {
+                        "title": "Proverbs and Sayings",
+                        "grammar": "Understanding and using proverbs"
+                    },
+                    {
+                        "title": "Idiomatic Expressions II",
+                        "grammar": "Idioms in context"
+                    }
+                ]
+            },
+            {
+                "module": "Complex Sentence Structures",
+                "description": "Using advanced sentence structures for clarity and impact",
+                "lessons": [
+                    {
+                        "title": "Compound and Complex Sentences",
+                        "grammar": "Combining clauses"
+                    },
+                    {
+                        "title": "Inversion in Sentences",
+                        "grammar": "Inverted structures"
+                    },
+                    {
+                        "title": "Using Parentheses and Dashes",
+                        "grammar": "Advanced punctuation"
+                    },
+                    {
+                        "title": "Parallel Structures",
+                        "grammar": "Balancing sentence elements"
+                    },
+                    {
+                        "title": "Advanced Conjunctions",
+                        "grammar": "Connecting ideas effectively"
+                    }
+                ]
+            },
+            {
+                "module": "Professional and Academic English",
+                "description": "Mastering English for professional and academic contexts",
+                "lessons": [
+                    {
+                        "title": "Writing Formal Emails",
+                        "grammar": "Formal language"
+                    },
+                    {
+                        "title": "Academic Writing Style",
+                        "grammar": "Structure and tone"
+                    },
+                    {
+                        "title": "Presenting Research",
+                        "grammar": "Presentation skills"
+                    },
+                    {
+                        "title": "Advanced Report Writing",
+                        "grammar": "Organizing information"
+                    },
+                    {
+                        "title": "Professional Correspondence",
+                        "grammar": "Business communication"
+                    }
+                ]
+            },
+            {
+                "module": "Literary Analysis and Critique",
+                "description": "Analyzing and critiquing literary texts",
+                "lessons": [
+                    {
+                        "title": "Understanding Literary Devices",
+                        "grammar": "Metaphors, similes, and more"
+                    },
+                    {
+                        "title": "Analyzing Poetry",
+                        "grammar": "Form and meaning"
+                    },
+                    {
+                        "title": "Critiquing Prose",
+                        "grammar": "Techniques and styles"
+                    },
+                    {
+                        "title": "Interpreting Drama",
+                        "grammar": "Themes and characters"
+                    },
+                    {
+                        "title": "Writing Literary Criticism",
+                        "grammar": "Structured analysis"
+                    }
+                ]
+            },
+            {
+                "module": "Advanced Communication Skills",
+                "description": "Enhancing high-level communication abilities",
+                "lessons": [
+                    {
+                        "title": "Persuasive Speaking",
+                        "grammar": "Rhetorical strategies"
+                    },
+                    {
+                        "title": "Advanced Debating Skills",
+                        "grammar": "Constructing arguments"
+                    },
+                    {
+                        "title": "Negotiation Techniques",
+                        "grammar": "Language of negotiation"
+                    },
+                    {
+                        "title": "Effective Storytelling",
+                        "grammar": "Narrative techniques"
+                    },
+                    {
+                        "title": "Public Speaking Mastery",
+                        "grammar": "Engaging an audience"
+                    }
+                ]
+            },
+            {
+                "module": "Cultural Competence",
+                "description": "Understanding and navigating cultural differences",
+                "lessons": [
+                    {
+                        "title": "Global English Varieties",
+                        "grammar": "Differences and similarities"
+                    },
+                    {
+                        "title": "Intercultural Communication",
+                        "grammar": "Cultural norms and practices"
+                    },
+                    {
+                        "title": "Understanding Humor",
+                        "grammar": "Cultural contexts of humor"
+                    },
+                    {
+                        "title": "Media Literacy",
+                        "grammar": "Analyzing media content"
+                    },
+                    {
+                        "title": "Cross-Cultural Negotiations",
+                        "grammar": "Strategies for success"
+                    }
+                ]
+            },
+            {
+                "module": "Advanced Grammar and Usage",
+                "description": "Mastering complex grammatical structures",
+                "lessons": [
+                    {
+                        "title": "Advanced Verb Tenses",
+                        "grammar": "Perfect and perfect continuous"
+                    },
+                    {
+                        "title": "Conditionals in Detail",
+                        "grammar": "Mixed conditionals"
+                    },
+                    {
+                        "title": "Subjunctive Mood",
+                        "grammar": "Expressing wishes and hypotheticals"
+                    },
+                    {
+                        "title": "Cleft Sentences",
+                        "grammar": "Emphasizing information"
+                    },
+                    {
+                        "title": "Nominalization",
+                        "grammar": "Turning verbs into nouns"
+                    }
+                ]
+            },
+            {
+                "module": "Idiomatic and Figurative Language",
+                "description": "Using idiomatic and figurative language effectively",
+                "lessons": [
+                    {
+                        "title": "Metaphors and Similes",
+                        "grammar": "Comparative language"
+                    },
+                    {
+                        "title": "Personification and Hyperbole",
+                        "grammar": "Figurative language"
+                    },
+                    {
+                        "title": "Irony and Sarcasm",
+                        "grammar": "Expressing nuances"
+                    },
+                    {
+                        "title": "Euphemisms and Dysphemisms",
+                        "grammar": "Politeness and bluntness"
+                    },
+                    {
+                        "title": "Using Proverbs and Sayings",
+                        "grammar": "Cultural expressions"
+                    }
+                ]
+            },
+            {
+                "module": "Specialized Vocabulary",
+                "description": "Building vocabulary for specific fields",
+                "lessons": [
+                    {
+                        "title": "Medical Terminology",
+                        "grammar": "Healthcare language"
+                    },
+                    {
+                        "title": "Legal English",
+                        "grammar": "Law and justice"
+                    },
+                    {
+                        "title": "Technical and Scientific Terms",
+                        "grammar": "Engineering and science"
+                    },
+                    {
+                        "title": "Business and Finance",
+                        "grammar": "Corporate language"
+                    },
+                    {
+                        "title": "Arts and Humanities",
+                        "grammar": "Creative disciplines"
+                    }
+                ]
+            },
+            {
+                "module": "Exam Preparation",
+                "description": "Preparing for advanced English proficiency exams",
+                "lessons": [
+                    {
+                        "title": "Advanced Reading Skills",
+                        "grammar": "Comprehension strategies"
+                    },
+                    {
+                        "title": "Essay Writing Techniques",
+                        "grammar": "Structured writing"
+                    },
+                    {
+                        "title": "Listening for Detail",
+                        "grammar": "Understanding nuance"
+                    },
+                    {
+                        "title": "Speaking with Confidence",
+                        "grammar": "Fluency and coherence"
+                    },
+                    {
+                        "title": "Mastering Exam Grammar",
+                        "grammar": "Common exam topics"
+                    }
+                ]
+            }
+        ]
+    }
+}

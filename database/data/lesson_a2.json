@@ -1,0 +1,169 @@
+{
+  "lesson": {
+    "title": "Lesson Title",
+    "grammar_topic": "Basic Grammar Topic",
+    "introduction": {
+      "objective": "Learn vocabulary, basic grammar, and simple phrasal verbs related to ...",
+      "vocabulary": ["word1", "word2", "word3", "word4", "word5", "word6", "word7", "word8", "word9", "word10"],
+      "verbs": ["verb1", "verb2", "verb3", "verb4", "verb5"],
+      "phrasal_verbs": ["phrasal_verb1", "phrasal_verb2", "phrasal_verb3"],
+      "native_expression": {
+        "expression": "Simple Expression",
+        "example": "Example usage"
+      },
+      "grammar": "Explanation of basic grammar topic with examples"
+    },
+    "vocabulary_presentation": {
+      "words": [
+        {"word": "word1", "translation": "translation1", "image": "image1.jpg", "audio": "audio1.mp3"},
+        {"word": "word2", "translation": "translation2", "image": "image2.jpg", "audio": "audio2.mp3"},
+        {"word": "word3", "translation": "translation3", "image": "image3.jpg", "audio": "audio3.mp3"},
+        {"word": "word4", "translation": "translation4", "image": "image4.jpg", "audio": "audio4.mp3"},
+        {"word": "word5", "translation": "translation5", "image": "image5.jpg", "audio": "audio5.mp3"},
+        {"word": "word6", "translation": "translation6", "image": "image6.jpg", "audio": "audio6.mp3"},
+        {"word": "word7", "translation": "translation7", "image": "image7.jpg", "audio": "audio7.mp3"},
+        {"word": "word8", "translation": "translation8", "image": "image8.jpg", "audio": "audio8.mp3"},
+        {"word": "word9", "translation": "translation9", "image": "image9.jpg", "audio": "audio9.mp3"},
+        {"word": "word10", "translation": "translation10", "image": "image10.jpg", "audio": "audio10.mp3"}
+      ],
+      "verbs": [
+        {"verb": "verb1", "translation": "translation1", "example": "example sentence"},
+        {"verb": "verb2", "translation": "translation2", "example": "example sentence"},
+        {"verb": "verb3", "translation": "translation3", "example": "example sentence"},
+        {"verb": "verb4", "translation": "translation4", "example": "example sentence"},
+        {"verb": "verb5", "translation": "translation5", "example": "example sentence"}
+      ],
+      "phrasal_verbs": [
+        {"phrasal_verb": "phrasal_verb1", "translation": "translation1", "example": "example sentence"},
+        {"phrasal_verb": "phrasal_verb2", "translation": "translation2", "example": "example sentence"},
+        {"phrasal_verb": "phrasal_verb3", "translation": "translation3", "example": "example sentence"}
+      ],
+      "native_expression": {
+        "expression": "expression",
+        "meaning": "meaning",
+        "example": "example usage"
+      }
+    },
+    "vocabulary_practice": {
+      "flashcards": [
+        {"word": "word1", "translation": "translation1"},
+        {"word": "word2", "translation": "translation2"},
+        {"word": "word3", "translation": "translation3"},
+        {"word": "word4", "translation": "translation4"},
+        {"word": "word5", "translation": "translation5"},
+        {"word": "word6", "translation": "translation6"},
+        {"word": "word7", "translation": "translation7"},
+        {"word": "word8", "translation": "translation8"},
+        {"word": "word9", "translation": "translation9"},
+        {"word": "word10", "translation": "translation10"}
+      ],
+      "matching": [
+        {"word": "word1", "image": "image1.jpg"},
+        {"word": "word2", "image": "image2.jpg"},
+        {"word": "word3", "image": "image3.jpg"},
+        {"word": "word4", "image": "image4.jpg"},
+        {"word": "word5", "image": "image5.jpg"},
+        {"word": "word6", "image": "image6.jpg"},
+        {"word": "word7", "image": "image7.jpg"},
+        {"word": "word8", "image": "image8.jpg"},
+        {"word": "word9", "image": "image9.jpg"},
+        {"word": "word10", "image": "image10.jpg"}
+      ],
+      "fill_in_the_blanks": [
+        {"sentence": "Sentence with ___ (word1)", "correct_answer": "word1"},
+        {"sentence": "Sentence with ___ (word2)", "correct_answer": "word2"},
+        {"sentence": "Sentence with ___ (word3)", "correct_answer": "word3"},
+        {"sentence": "Sentence with ___ (word4)", "correct_answer": "word4"},
+        {"sentence": "Sentence with ___ (word5)", "correct_answer": "word5"},
+        {"sentence": "Sentence with ___ (word6)", "correct_answer": "word6"},
+        {"sentence": "Sentence with ___ (word7)", "correct_answer": "word7"},
+        {"sentence": "Sentence with ___ (word8)", "correct_answer": "word8"},
+        {"sentence": "Sentence with ___ (word9)", "correct_answer": "word9"},
+        {"sentence": "Sentence with ___ (word10)", "correct_answer": "word10"}
+      ]
+    },
+    "grammar_introduction": {
+      "explanation": "Explanation of basic grammar topic with examples",
+      "examples": [
+        {"sentence": "example sentence", "translation": "translation"},
+        {"sentence": "example sentence", "translation": "translation"},
+        {"sentence": "example sentence", "translation": "translation"}
+      ],
+      "practice": [
+        {"sentence": "Practice sentence with ___ (grammar)", "correct_answer": "correct answer"},
+        {"sentence": "Practice sentence with ___ (grammar)", "correct_answer": "correct answer"},
+        {"sentence": "Practice sentence with ___ (grammar)", "correct_answer": "correct answer"}
+      ]
+    },
+    "written_practice": {
+      "translation": [
+        {"sentence": "simple sentence to translate", "correct_answer": "correct translation"},
+        {"sentence": "simple sentence to translate", "correct_answer": "correct translation"},
+        {"sentence": "simple sentence to translate", "correct_answer": "correct translation"}
+      ],
+      "fill_in_the_blanks": [
+        {"sentence": "Simple sentence with ___ (grammar)", "correct_answer": "correct answer"},
+        {"sentence": "Simple sentence with ___ (grammar)", "correct_answer": "correct answer"},
+        {"sentence": "Simple sentence with ___ (grammar)", "correct_answer": "correct answer"}
+      ],
+      "examples_generated_by_chatgpt": [
+        {"sentence": "Generated simple sentence", "correct_answer": "correct translation"},
+        {"sentence": "Generated simple sentence", "correct_answer": "correct translation"},
+        {"sentence": "Generated simple sentence", "correct_answer": "correct translation"}
+      ]
+    },
+    "listening_practice": {
+      "audio": "short audio file",
+      "comprehension_questions": [
+        {"question": "simple question", "correct_answer": "answer"},
+        {"question": "simple question", "correct_answer": "answer"},
+        {"question": "simple question", "correct_answer": "answer"}
+      ],
+      "transcription": "transcription of short audio"
+    },
+    "oral_practice": {
+      "repetition": [
+        {"sentence": "simple sentence to repeat", "audio": "audio file"},
+        {"sentence": "simple sentence to repeat", "audio": "audio file"},
+        {"sentence": "simple sentence to repeat", "audio": "audio file"}
+      ],
+      "recording": [
+        {"sentence": "simple sentence to record", "audio": "recorded audio"},
+        {"sentence": "simple sentence to record", "audio": "recorded audio"},
+        {"sentence": "simple sentence to record", "audio": "recorded audio"}
+      ],
+      "evaluation": [
+        {"feedback": "feedback on pronunciation"},
+        {"feedback": "feedback on pronunciation"},
+        {"feedback": "feedback on pronunciation"}
+      ]
+    },
+    "feedback_and_improvement": {
+      "pronunciation_correction": [
+        {"word": "word", "correction": "correct pronunciation"},
+        {"word": "word", "correction": "correct pronunciation"},
+        {"word": "word", "correction": "correct pronunciation"}
+      ],
+      "suggestion_of_formulation": [
+        {"sentence": "simple suggested sentence", "correction": "better formulation"},
+        {"sentence": "simple suggested sentence", "correction": "better formulation"},
+        {"sentence": "simple suggested sentence", "correction": "better formulation"}
+],
+"improvement_tips": [
+{"tip": "simple tip for improvement"},
+{"tip": "simple tip for improvement"},
+{"tip": "simple tip for improvement"}
+]
+},
+"additional_practice_and_review": {
+"interactive_games": [
+{"game": "simple game type", "words": ["word1", "word2", "word3", "word4", "word5", "word6", "word7", "word8", "word9", "word10"]},
+{"game": "simple game type", "words": ["word1", "word2", "word3", "word4", "word5", "word6", "word7", "word8", "word9", "word10"]}
+],
+"review_materials": [
+{"material": "simple material type", "content": "content description"},
+{"material": "simple material type", "content": "content description"}
+]
+}
+}
+}

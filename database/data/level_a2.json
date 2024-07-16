@@ -1,0 +1,265 @@
+{
+    "level_a2": {
+      "modules": [
+        {
+          "module": "Expanding Vocabulary",
+          "description": "Building a broader vocabulary base",
+          "lessons": [
+            {
+              "title": "Describing People",
+              "grammar": "Adjectives for Appearance and Personality"
+            },
+            {
+              "title": "Talking About Hobbies",
+              "grammar": "Gerunds and Infinitives"
+            },
+            {
+              "title": "Expressing Preferences",
+              "grammar": "Would Like vs. Like"
+            },
+            {
+              "title": "Discussing Plans",
+              "grammar": "Future Simple and Going to"
+            },
+            {
+              "title": "Talking About Past Experiences",
+              "grammar": "Present Perfect"
+            }
+          ]
+        },
+        {
+          "module": "Social Interactions",
+          "description": "Improving social communication skills",
+          "lessons": [
+            {
+              "title": "Making Invitations",
+              "grammar": "Modals for Invitations (can, could)"
+            },
+            {
+              "title": "Giving Advice",
+              "grammar": "Should and Ought to"
+            },
+            {
+              "title": "Expressing Opinions",
+              "grammar": "Agreeing and Disagreeing Phrases"
+            },
+            {
+              "title": "Talking About Obligations",
+              "grammar": "Have to and Must"
+            },
+            {
+              "title": "Making Suggestions",
+              "grammar": "Let's and Why Don't We"
+            }
+          ]
+        },
+        {
+          "module": "At Home and Daily Life",
+          "description": "Describing daily routines and home life",
+          "lessons": [
+            {
+              "title": "Household Chores",
+              "grammar": "Present Continuous for Ongoing Actions"
+            },
+            {
+              "title": "Daily Routines",        "grammar": "Adverbs of Frequency"
+            },
+            {
+              "title": "Talking About Weather",
+              "grammar": "Weather Vocabulary and Phrases"
+            },
+            {
+              "title": "Describing Your Neighborhood",
+              "grammar": "There is/There are"
+            },
+            {
+              "title": "Making Comparisons",
+              "grammar": "Comparative and Superlative Adjectives"
+            }
+          ]
+        },
+        {
+          "module": "Health and Fitness",
+          "description": "Discussing health, fitness, and wellness",
+          "lessons": [
+            {
+              "title": "Talking About Illnesses",
+              "grammar": "Common Health Vocabulary"
+            },
+            {
+              "title": "Describing Symptoms",
+              "grammar": "Using Have and Feel"
+            },
+            {
+              "title": "At the Gym",
+              "grammar": "Exercise Verbs"
+            },
+            {
+              "title": "Healthy Eating",
+              "grammar": "Countable and Uncountable Nouns"
+            },
+            {
+              "title": "Mental Health",
+              "grammar": "Expressions for Feelings and Emotions"
+            }
+          ]
+        },
+        {
+          "module": "Travel and Holidays",
+          "description": "Handling travel and vacation situations",
+          "lessons": [
+            {
+              "title": "Planning a Trip",
+              "grammar": "Future Plans with Going to"
+            },
+            {
+              "title": "Booking Accommodation",
+              "grammar": "Making Reservations"
+            },
+            {
+              "title": "At the Airport",
+              "grammar": "Airport and Travel Vocabulary"
+            },
+            {
+              "title": "Asking for Directions",
+              "grammar": "Prepositions of Place"
+            },
+            {
+              "title": "Describing Tourist Attractions",
+              "grammar": "Past Simple for Historical Events"
+            }
+          ]
+        },
+        {
+          "module": "Work and Study",
+          "description": "Vocabulary and phrases for work and study contexts",
+          "lessons": [
+            {
+              "title": "Applying for a Job",
+              "grammar": "Present Perfect for Life Experiences"
+            },
+            {
+              "title": "In the Office",
+              "grammar": "Office Vocabulary"
+            },
+            {
+              "title": "Attending Meetings",
+              "grammar": "Common Meeting Phrases"
+            },
+            {
+              "title": "School Subjects",
+              "grammar": "Subject-Specific Vocabulary"
+            },
+            {
+              "title": "Giving Presentations",
+              "grammar": "Sequencing Words and Phrases"
+            }
+          ]
+        },
+        {
+          "module": "Shopping and Services",
+          "description": "Navigating shopping and various services",
+          "lessons": [
+            {
+              "title": "At the Grocery Store",
+              "grammar": "Quantifiers (some, any, many, much)"
+            },
+            {
+              "title": "Clothes Shopping",
+              "grammar": "Adjectives for Clothing"
+            },
+            {
+              "title": "Using Public Transport",
+              "grammar": "Asking Questions Politely"
+            },
+            {
+              "title": "Going to the Bank",
+              "grammar": "Money-Related Vocabulary"
+            },
+            {
+              "title": "At the Post Office",
+              "grammar": "Common Service Phrases"
+            }
+          ]
+        },
+        {
+          "module": "Entertainment and Media",
+          "description": "Talking about entertainment and media",
+          "lessons": [
+            {
+              "title": "Going to the Movies",
+              "grammar": "Past Simple for Narratives"
+            },
+            {
+              "title": "Listening to Music",
+              "grammar": "Music Genres and Adjectives"
+            },
+            {
+              "title": "Reading Books",
+              "grammar": "Book Genres"
+            },
+            {
+              "title": "Watching TV",
+              "grammar": "Television Vocabulary"
+            },
+            {
+              "title": "Using Social Media",
+              "grammar": "Internet and Social Media Vocabulary"
+            }
+          ]
+        },
+        {
+          "module": "Food and Cooking",
+          "description": "Discussing food and cooking activities",
+          "lessons": [
+            {
+              "title": "Cooking Recipes",
+              "grammar": "Imperatives for Instructions"
+            },
+            {
+              "title": "Describing Flavors",
+              "grammar": "Adjectives for Taste"
+            },
+            {
+              "title": "Ordering Food",
+              "grammar": "Restaurant Phrases"
+            },
+            {
+              "title": "Grocery Shopping",
+              "grammar": "Countable and Uncountable Nouns"
+            },
+            {
+              "title": "Talking About Meals",
+              "grammar": "Present Simple for Routines"
+            }
+          ]
+        },
+        {
+          "module": "Nature and Environment",
+          "description": "Talking about nature and the environment",
+          "lessons": [
+            {
+              "title": "Describing Landscapes",
+              "grammar": "Adjectives for Descriptions"
+            },
+            {
+              "title": "Wildlife Vocabulary",
+              "grammar": "Animal Names and Habitats"
+            },
+            {
+              "title": "Environmental Issues",
+              "grammar": "Present Continuous for Current Actions"
+            },
+            {
+              "title": "Weather and Climate",
+              "grammar": "Weather Expressions"
+            },
+            {
+              "title": "Natural Disasters",
+              "grammar": "Past Simple for Events"
+            }
+          ]
+        }
+      ]
+    }
+}

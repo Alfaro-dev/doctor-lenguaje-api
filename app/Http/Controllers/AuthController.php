@@ -1,6 +1,6 @@
 <?php
    
-namespace App\Http\Controllers\API;
+namespace App\Http\Controllers;
    
 use App\Http\Controllers\Controller;
 use App\Http\Requests\LoginAuthRequest;
@@ -19,8 +19,8 @@ class AuthController extends Controller
 
     /**
      * Register api
-     *
-     * @return \Illuminate\Http\JsonResponse
+     * @param RegisterAuthRequest $request
+     * @return JsonResponse
      */
     public function register(RegisterAuthRequest $request): JsonResponse
     {
@@ -30,8 +30,8 @@ class AuthController extends Controller
    
     /**
      * Login api
-     *
-     * @return \Illuminate\Http\JsonResponse
+     * @param LoginAuthRequest $request
+     * @return JsonResponse
      */
     public function login(LoginAuthRequest $request): JsonResponse
     {
@@ -41,8 +41,7 @@ class AuthController extends Controller
 
     /**
      * Logout api
-     *
-     * @return \Illuminate\Http\JsonResponse
+     * @return JsonResponse
      */
     public function logout(): JsonResponse
     {

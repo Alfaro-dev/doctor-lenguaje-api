@@ -1,0 +1,266 @@
+{
+    "level_c1": {
+      "modules": [
+        {
+          "module": "Advanced Communication and Rhetoric",
+          "description": "Mastering advanced communication skills and rhetoric",
+          "lessons": [
+            {
+              "title": "Advanced Debating Techniques",
+              "grammar": "Advanced Subjunctive Mood"
+            },
+            {
+              "title": "Nuances in Formal and Informal Language",
+              "grammar": "Discourse Markers"
+            },
+            {
+              "title": "Mastering Idiomatic Expressions",
+              "grammar": "Advanced Idioms and Phrasal Verbs"
+            },
+            {
+              "title": "Expressing Complex Emotions",
+              "grammar": "Advanced Sentence Structures"
+            },
+            {
+              "title": "Effective Public Speaking",
+              "grammar": "Advanced Rhetorical Devices"
+            }
+          ]
+        },
+        {
+          "module": "Professional Excellence",
+          "description": "Achieving excellence in professional communication and development",
+          "lessons": [
+            {
+              "title": "Strategic Job Interviews",
+              "grammar": "Advanced Question Forms"
+            },
+            {
+              "title": "High-Level Professional Correspondence",
+              "grammar": "Nuances in Formal Writing"
+            },
+            {
+              "title": "Leadership and Management",
+              "grammar": "Advanced Modals of Deduction"
+            },
+            {
+              "title": "Advanced Negotiation Techniques",
+              "grammar": "Mixed Conditionals (Advanced)"
+            },
+            {
+              "title": "Building Professional Networks",
+              "grammar": "Complex Relative Clauses"
+            }
+          ]
+        },
+        {
+          "module": "Health and Advanced Wellness",
+          "description": "Exploring advanced topics in health and wellness",
+          "lessons": [
+            {
+              "title": "Mental Health and Wellbeing",
+              "grammar": "Advanced Reported Speech"
+            },
+            {
+              "title": "Advanced Nutrition Science",
+              "grammar": "Advanced Participle Clauses"
+            },
+            {
+              "title": "Comprehensive Fitness Programs",
+              "grammar": "Advanced Gerund and Infinitive Structures"
+            },
+            {
+              "title": "Managing Chronic Conditions",
+              "grammar": "Advanced Modals of Speculation"
+            },
+            {
+              "title": "Achieving Work-Life Balance",
+              "grammar": "Advanced Inversion for Emphasis"
+            }
+          ]
+        },
+        {
+          "module": "Exploration and Cultural Experiences",
+          "description": "Delving into advanced travel and cultural experiences",
+          "lessons": [
+            {
+              "title": "Adventure and Extreme Travel",
+              "grammar": "Future Perfect Continuous (Advanced)"
+            },
+            {
+              "title": "Cultural Sensitivity and Etiquette",
+              "grammar": "Complex Conditionals (Advanced)"
+            },
+            {
+              "title": "Sustainable and Eco-Tourism",
+              "grammar": "Advanced Passive Voice"
+            },
+            {
+              "title": "Travel Writing and Journalism",
+              "grammar": "Complex Relative Pronouns and Adverbs"
+            },
+            {
+              "title": "Discovering New Cultures",
+              "grammar": "Advanced Cleft Sentences"
+            }
+          ]
+        },
+        {
+          "module": "Academic Mastery and Research",
+          "description": "Mastering advanced academic and research skills",
+          "lessons": [
+            {
+              "title": "Advanced Academic Writing",
+              "grammar": "Advanced Nominalization"
+            },
+            {
+              "title": "Research Techniques and Methodologies",
+              "grammar": "Advanced Passive Voice in Research"
+            },
+            {
+              "title": "Pursuing Higher Education",
+              "grammar": "Advanced Complex Sentence Structures"
+            },
+            {
+              "title": "Innovative Learning Strategies",
+              "grammar": "Advanced Subjunctive Mood"
+            },
+            {
+              "title": "Presenting Research Findings",
+              "grammar": "Advanced Discourse Markers"
+            }
+          ]
+        },
+        {
+          "module": "Global Culture and Societal Issues",
+          "description": "Exploring complex cultural and societal issues",
+          "lessons": [
+            {
+              "title": "Identity and Cultural Diversity",
+              "grammar": "Advanced Defining and Non-defining Clauses"
+            },
+            {
+              "title": "Globalization and Its Impact",
+              "grammar": "Future in the Past (Advanced)"
+            },
+            {
+              "title": "Social Movements and Change",
+              "grammar": "Past Perfect Continuous (Advanced)"
+            },
+            {
+              "title": "Media, Society, and Influence",
+              "grammar": "Advanced Reported Speech"
+            },
+            {
+              "title": "Ethics, Morality, and Society",
+              "grammar": "Advanced Conditionals"
+            }
+          ]
+        },
+        {
+          "module": "Advanced Business and Economic Concepts",
+          "description": "Mastering advanced business and economic topics",
+          "lessons": [
+            {
+              "title": "Analyzing Market Trends",
+              "grammar": "Future Perfect (Advanced)"
+            },
+            {
+              "title": "Corporate Social Responsibility",
+              "grammar": "Advanced Passive Voice"
+            },
+            {
+              "title": "Advanced Investment Strategies",
+              "grammar": "Mixed Conditionals (Advanced)"
+            },
+            {
+              "title": "International Trade and Economics",
+              "grammar": "Advanced Complex Prepositions"
+            },
+            {
+              "title": "Economic Theory and Policy",
+              "grammar": "Advanced Nominalization"
+            }
+          ]
+        },
+        {
+          "module": "Art, Literature, and Critique",
+          "description": "Engaging with advanced topics in art, literature, and critique",
+          "lessons": [
+            {
+              "title": "Advanced Film Criticism",
+              "grammar": "Advanced Adverbial Clauses"
+            },
+            {
+              "title": "In-Depth Music Theory",
+              "grammar": "Advanced Reduced Relative Clauses"
+            },
+            {
+              "title": "Artistic Movements and History",
+              "grammar": "Comparative Structures (Advanced)"
+            },
+            {
+              "title": "Advanced Theatre and Performance",
+              "grammar": "Advanced Hypothetical Situations"
+            },
+            {
+              "title": "Literary Analysis and Critique",
+              "grammar": "Advanced Cohesive Devices"
+            }
+          ]
+        },
+        {
+          "module": "Scientific and Technological Advances",
+          "description": "Exploring advanced topics in science and technology",
+          "lessons": [
+            {
+              "title": "Innovations in Technology",
+              "grammar": "Future Perfect Continuous (Advanced)"
+            },
+            {
+              "title": "Breakthroughs in Science",
+              "grammar": "Advanced Passive Voice in Science"
+            },
+            {
+              "title": "Space Exploration and Discovery",
+              "grammar": "Advanced Relative Pronouns and Adverbs"
+            },
+            {
+              "title": "Environmental Science and Sustainability",
+              "grammar": "Advanced Complex Prepositions"
+            },
+            {
+              "title": "Ethics in Scientific Research",
+              "grammar": "Advanced Conditionals"
+            }
+          ]
+        },
+        {
+          "module": "Global Environmental Issues",
+          "description": "Discussing advanced global environmental issues and sustainability",
+          "lessons": [
+            {
+              "title": "International Climate Policies",
+              "grammar": "Advanced Nominalization"
+            },
+            {
+              "title": "Sustainable Development Goals",
+              "grammar": "Advanced Passive Voice"
+            },
+            {
+              "title": "Advanced Conservation Techniques",
+              "grammar": "Future Perfect (Advanced)"
+            },
+            {
+              "title": "Renewable Energy Innovations",
+              "grammar": "Advanced Complex Conditionals"
+            },
+            {
+              "title": "Global Environmental Activism",
+              "grammar": "Advanced Reported Speech"
+            }
+          ]
+        }
+      ]
+    }
+  }

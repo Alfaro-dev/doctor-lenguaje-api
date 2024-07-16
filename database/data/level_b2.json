@@ -1,0 +1,266 @@
+{
+    "level_b2": {
+      "modules": [
+        {
+          "module": "Advanced Communication Skills",
+          "description": "Enhancing advanced communication skills",
+          "lessons": [
+            {
+              "title": "Debating and Persuasion",
+              "grammar": "Subjunctive Mood"
+            },
+            {
+              "title": "Formal and Informal Language",
+              "grammar": "Register and Style"
+            },
+            {
+              "title": "Idiomatic Expressions",
+              "grammar": "Idioms and Phrasal Verbs"
+            },
+            {
+              "title": "Expressing Emotions",
+              "grammar": "Complex Sentence Structures"
+            },
+            {
+              "title": "Public Speaking",
+              "grammar": "Rhetorical Devices"
+            }
+          ]
+        },
+        {
+          "module": "Professional Development",
+          "description": "Developing skills for professional growth",
+          "lessons": [
+            {
+              "title": "Advanced Job Interviews",
+              "grammar": "Complex Question Forms"
+            },
+            {
+              "title": "Professional Correspondence",
+              "grammar": "Formal Writing Techniques"
+            },
+            {
+              "title": "Leadership Skills",
+              "grammar": "Modals of Deduction"
+            },
+            {
+              "title": "Negotiation Tactics",
+              "grammar": "Conditionals (Mixed)"
+            },
+            {
+              "title": "Networking Strategies",
+              "grammar": "Relative Clauses"
+            }
+          ]
+        },
+        {
+          "module": "Health and Wellness",
+          "description": "Discussing health, wellness, and advanced topics in lifestyle",
+          "lessons": [
+            {
+              "title": "Mental Health Awareness",
+              "grammar": "Reported Speech (Advanced)"
+            },
+            {
+              "title": "Nutrition and Diet",
+              "grammar": "Participle Clauses"
+            },
+            {
+              "title": "Fitness Programs",
+              "grammar": "Complex Gerund and Infinitive Structures"
+            },
+            {
+              "title": "Dealing with Chronic Illness",
+              "grammar": "Modals of Speculation"
+            },
+            {
+              "title": "Work-Life Balance",
+              "grammar": "Inversion for Emphasis"
+            }
+          ]
+        },
+        {
+          "module": "Travel and Exploration",
+          "description": "Planning and discussing advanced travel and exploration topics",
+          "lessons": [
+            {
+              "title": "Adventure Travel",
+              "grammar": "Future Perfect Continuous"
+            },
+            {
+              "title": "Cultural Etiquette",
+              "grammar": "Complex Conditionals"
+            },
+            {
+              "title": "Eco-Tourism",
+              "grammar": "Passive Voice (Advanced)"
+            },
+            {
+              "title": "Travel Journalism",
+              "grammar": "Relative Pronouns and Adverbs"
+            },
+            {
+              "title": "Exploring New Destinations",
+              "grammar": "Cleft Sentences"
+            }
+          ]
+        },
+        {
+          "module": "Education and Research",
+          "description": "Discussing education, academic research, and advanced learning topics",
+          "lessons": [
+            {
+              "title": "Academic Writing",
+              "grammar": "Nominalization"
+            },
+            {
+              "title": "Research Methodologies",
+              "grammar": "Passive Voice in Research"
+            },
+            {
+              "title": "Higher Education",
+              "grammar": "Complex Sentence Structures"
+            },
+            {
+              "title": "Learning Strategies",
+              "grammar": "Subjunctive Mood"
+            },
+            {
+              "title": "Presenting Research Findings",
+              "grammar": "Discourse Markers"
+            }
+          ]
+        },
+        {
+          "module": "Culture and Society",
+          "description": "Exploring cultural and societal topics in depth",
+          "lessons": [
+            {
+              "title": "Cultural Identity",
+              "grammar": "Defining and Non-defining Clauses"
+            },
+            {
+              "title": "Globalization",
+              "grammar": "Future in the Past"
+            },
+            {
+              "title": "Social Movements",
+              "grammar": "Past Perfect Continuous"
+            },
+            {
+              "title": "Media and Society",
+              "grammar": "Reported Speech (Advanced)"
+            },
+            {
+              "title": "Ethics and Morality",
+              "grammar": "Conditionals (Advanced)"
+            }
+          ]
+        },
+        {
+          "module": "Business and Economics",
+          "description": "Discussing business and economic topics in detail",
+          "lessons": [
+            {
+              "title": "Market Trends",
+              "grammar": "Future Perfect"
+            },
+            {
+              "title": "Corporate Responsibility",
+              "grammar": "Passive Voice (Advanced)"
+            },
+            {
+              "title": "Investment Strategies",
+              "grammar": "Conditionals (Mixed)"
+            },
+            {
+              "title": "Global Trade",
+              "grammar": "Complex Prepositions"
+            },
+            {
+              "title": "Economic Policies",
+              "grammar": "Nominalization"
+            }
+          ]
+        },
+        {
+          "module": "Entertainment and Arts",
+          "description": "Discussing advanced topics in entertainment and arts",
+          "lessons": [
+            {
+              "title": "Film Criticism",
+              "grammar": "Adverbial Clauses"
+            },
+            {
+              "title": "Music Theory",
+              "grammar": "Reduced Relative Clauses"
+            },
+            {
+              "title": "Art Movements",
+              "grammar": "Comparative Structures (Advanced)"
+            },
+            {
+              "title": "Theatre and Performance",
+              "grammar": "Expressing Hypothetical Situations"
+            },
+            {
+              "title": "Literary Analysis",
+              "grammar": "Cohesive Devices"
+            }
+          ]
+        },
+        {
+          "module": "Science and Technology",
+          "description": "Discussing advanced topics in science and technology",
+          "lessons": [
+            {
+              "title": "Innovations in Technology",
+              "grammar": "Future Perfect Continuous"
+            },
+            {
+              "title": "Scientific Discoveries",
+              "grammar": "Passive Voice in Science"
+            },
+            {
+              "title": "Space Exploration",
+              "grammar": "Relative Pronouns and Adverbs"
+            },
+            {
+              "title": "Environmental Science",
+              "grammar": "Complex Prepositions"
+            },
+            {
+              "title": "Ethics in Science",
+              "grammar": "Conditionals (Advanced)"
+            }
+          ]
+        },
+        {
+          "module": "Environment and Sustainability",
+          "description": "Discussing advanced topics in environment and sustainability",
+          "lessons": [
+            {
+              "title": "Climate Change Policies",
+              "grammar": "Nominalization"
+            },
+            {
+              "title": "Sustainable Development",
+              "grammar": "Passive Voice (Advanced)"
+            },
+            {
+              "title": "Conservation Efforts",
+              "grammar": "Future Perfect"
+            },
+            {
+              "title": "Renewable Energy",
+              "grammar": "Complex Conditionals"
+            },
+            {
+              "title": "Environmental Activism",
+              "grammar": "Reported Speech (Advanced)"
+            }
+          ]
+        }
+      ]
+    }
+  }

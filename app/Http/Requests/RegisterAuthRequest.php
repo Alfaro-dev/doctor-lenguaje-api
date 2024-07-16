@@ -25,7 +25,7 @@ class RegisterAuthRequest extends FormRequest
             'name' => 'required',
             'email' => 'required|email|unique:users',
             'password' => 'required',
-            'c_password' => 'required|same:password',
+            'password_confirmation' => 'required|same:password',
         ];
     }
 
@@ -42,8 +42,8 @@ class RegisterAuthRequest extends FormRequest
             'email.email' => 'Email is invalid',
             'email.unique' => 'Email is already taken',
             'password.required' => 'Password is required',
-            'c_password.required' => 'Confirm Password is required',
-            'c_password.same' => 'Password does not match',
+            'password_confirmation.required' => 'Confirm Password is required',
+            'password_confirmation.same' => 'Password does not match',
         ];
     }
 }

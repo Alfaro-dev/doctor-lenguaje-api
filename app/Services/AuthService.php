@@ -6,6 +6,7 @@ use Exception;
 use App\Http\Responses\HttpStatus;
 use App\Http\Requests\LoginAuthRequest;
 use App\Http\Requests\RegisterAuthRequest;
+use App\Http\Resources\UserResource;
 use App\Http\Responses\ErrorResponse;
 use App\Http\Responses\Response;
 use Illuminate\Support\Facades\Auth;
@@ -45,7 +46,7 @@ class AuthService implements AuthServiceInterface
             return new Response(
                 'User Created Successfully',
                 HttpStatus::CREATED,
-                ['message' => 'User created successfully']
+                new UserResource($user)
             );
         } catch (Exception $e) {
             return new ErrorResponse(
@@ -84,10 +85,15 @@ class AuthService implements AuthServiceInterface
             'auth_token'
         )->plainTextToken;
 
-        return new Response('Logged In!', HttpStatus::ACCEPTED, [
-            'token' => $token,
-            'token_type' => 'Bearer'
-        ]);
+        return new Response(
+            'Logged In!', 
+            HttpStatus::ACCEPTED, 
+            [
+                'token' => $token,
+                'token_type' => 'Bearer',
+                'user' => new UserResource($user)
+            ]
+        );
     }
 
     /**

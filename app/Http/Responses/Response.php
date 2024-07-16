@@ -73,13 +73,8 @@ class Response
     {
         $statusIsLessThan200 = $this->status < 200;
         $statusIsHigherThan300 = $this->status >= 300;
-        $statusIsHigherThan500 = $this->status >= 500;
 
         $isError = $statusIsLessThan200 || $statusIsHigherThan300;
-
-        /*if ($statusIsHigherThan500) {
-            // Rollbar::log(Level::ERROR, $this->getReason(), $this->getData());
-        }*/
 
         return $isError;
     }

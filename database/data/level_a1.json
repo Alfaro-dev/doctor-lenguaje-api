@@ -1,0 +1,266 @@
+{
+    "level_a1": {
+        "modules": [
+            {
+                "module": "Introduction to Basic English",
+                "description": "Basics of English for beginners",
+                "lessons": [
+                    {
+                        "title": "Learning the Alphabet",
+                        "grammar": "Alphabet and Pronunciation"
+                    },
+                    {
+                        "title": "Saying Hello",
+                        "grammar": "Basic Greetings and Introductions"
+                    },
+                    {
+                    "title": "Talking About Yourself",
+                    "grammar": "Personal Pronouns"
+                    },
+                    {
+                    "title": "Counting to Ten",
+                    "grammar": "Numbers 1-10"
+                    },
+                    {
+                    "title": "Days and Months",
+                    "grammar": "Days of the Week and Months of the Year"
+                    }
+                ]
+            },
+            {
+            "module": "Everyday Conversations",
+            "description": "Basic conversational skills for everyday situations",
+            "lessons": [
+                {
+                "title": "Asking for Directions",
+                "grammar": "Questions and Prepositions"
+                },
+                {
+                "title": "Ordering Food",
+                "grammar": "Common Phrases in Restaurants"
+                },
+                {
+                "title": "Telling Time",
+                "grammar": "Time Expressions"
+                },
+                {
+                "title": "Shopping for Groceries",
+                "grammar": "Countable and Uncountable Nouns"
+                },
+                {
+                "title": "Making Plans",
+                "grammar": "Simple Future (will, going to)"
+                }
+            ]
+            },
+            {
+            "module": "Home and Family",
+            "description": "Talking about your home and family",
+            "lessons": [
+                {
+                "title": "Describing Your House",
+                "grammar": "There is/There are"
+                },
+                {
+                "title": "Family Members",
+                "grammar": "Possessive Adjectives"
+                },
+                {
+                "title": "Daily Routines",
+                "grammar": "Present Simple Tense"
+                },
+                {
+                "title": "Household Chores",
+                "grammar": "Common Verbs for Chores"
+                },
+                {
+                "title": "Talking About Pets",
+                "grammar": "Adjectives for Describing Pets"
+                }
+            ]
+            },
+            {
+            "module": "Work and School",
+            "description": "Vocabulary and phrases for work and school",
+            "lessons": [
+                {
+                "title": "Your Job",
+                "grammar": "Job Titles and Workplaces"
+                },
+                {
+                "title": "At the Office",
+                "grammar": "Present Continuous Tense"
+                },
+                {
+                "title": "Meeting New Colleagues",
+                "grammar": "Formal and Informal Introductions"
+                },
+                {
+                "title": "School Subjects",
+                "grammar": "Articles (a, an, the)"
+                },
+                {
+                "title": "Classroom Language",
+                "grammar": "Imperatives"
+                }
+            ]
+            },
+            {
+            "module": "Leisure and Hobbies",
+            "description": "Discussing free time activities and interests",
+            "lessons": [
+                {
+                "title": "Sports and Games",
+                "grammar": "Simple Past Tense"
+                },
+                {
+                "title": "Watching Movies",
+                "grammar": "Types of Movies"
+                },
+                {
+                "title": "Listening to Music",
+                "grammar": "Expressing Preferences (like, love, hate)"
+                },
+                {
+                "title": "Reading Books",
+                "grammar": "Adjectives for Describing Books"
+                },
+                {
+                "title": "Playing Video Games",
+                "grammar": "Adverbs of Frequency"
+                }
+            ]
+            },
+            {
+            "module": "Food and Dining",
+            "description": "Exploring food vocabulary and dining phrases",
+            "lessons": [
+                {
+                "title": "Cooking at Home",
+                "grammar": "Imperatives for Giving Instructions"
+                },
+                {
+                "title": "Dining Out",
+                "grammar": "Restaurant Vocabulary"
+                },
+                {
+                "title": "Grocery Shopping",
+                "grammar": "Quantifiers (some, any, many, much)"
+                },
+                {
+                "title": "Describing Food",
+                "grammar": "Adjectives for Taste and Texture"
+                },
+                {
+                "title": "Favorite Recipes",
+                "grammar": "Sequencing Words (first, next, then)"
+                }
+            ]
+            },
+            {
+            "module": "Travel and Transportation",
+            "description": "Navigating travel and transportation situations",
+            "lessons": [
+                {
+                "title": "Planning a Trip",
+                "grammar": "Future Simple (will)"
+                },
+                {
+                "title": "At the Airport",
+                "grammar": "Present Continuous for Future Arrangements"
+                },
+                {
+                "title": "Using Public Transport",
+                "grammar": "Modals (can, could, may)"
+                },
+                {
+                "title": "Asking for Directions",
+                "grammar": "Imperatives"
+                },
+                {
+                "title": "Staying at a Hotel",
+                "grammar": "There is/There are"
+                }
+            ]
+            },
+            {
+            "module": "Health and Wellness",
+            "description": "Discussing health, wellness, and fitness",
+            "lessons": [
+                {
+                "title": "At the Doctor",
+                "grammar": "Modal Verbs (should, must)"
+                },
+                {
+                "title": "Healthy Eating",
+                "grammar": "Countable and Uncountable Nouns"
+                },
+                {
+                "title": "Exercise and Fitness",
+                "grammar": "Present Continuous for Actions in Progress"
+                },
+                {
+                "title": "Talking About Illness",
+                "grammar": "Present Perfect (have been, have gone)"
+                },
+                {
+                "title": "Mental Health",
+                "grammar": "Expressing Emotions (happy, sad, angry)"
+                }
+            ]
+            },
+            {
+            "module": "Shopping and Money",
+            "description": "Managing shopping and money-related situations",
+            "lessons": [
+                {
+                "title": "Buying Clothes",
+                "grammar": "Adjectives for Describing Clothes"
+                },
+                {
+                "title": "At the Mall",
+                "grammar": "Comparatives and Superlatives"
+                },
+                {
+                "title": "Handling Money",
+                "grammar": "Numbers and Prices"
+                },
+                {
+                "title": "Paying for Things",
+                "grammar": "Modal Verbs (can, could)"
+                },
+                {
+                "title": "Talking About Prices",
+                "grammar": "Adjectives for Prices (cheap, expensive)"
+                }
+            ]
+            },
+            {
+            "module": "Weather and Nature",
+            "description": "Describing weather and natural surroundings",
+            "lessons": [
+                {
+                "title": "Describing the Weather",
+                "grammar": "Present Simple and Continuous"
+                },
+                {
+                "title": "Seasons and Climate",
+                "grammar": "Comparatives and Superlatives"
+                },
+                {
+                "title": "Talking About Plants",
+                "grammar": "Adjectives for Describing Plants"
+                },
+                {
+                "title": "Animals and Insects",
+                "grammar": "Present Simple for Habits"
+                },
+                {
+                "title": "Natural Disasters",
+                "grammar": "Past Simple for Describing Events"
+                }
+            ]
+            }
+        ]
+    }
+}

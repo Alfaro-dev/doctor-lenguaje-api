@@ -2,7 +2,7 @@
 
 namespace App\Http\Responses;
 
-use App\Services\HttpStatus;
+use App\Http\Responses\HttpStatus;
 
 /**
  * Just a helper for the Response class, to improve the readability of
