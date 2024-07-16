@@ -7,7 +7,6 @@ use App\Http\Responses\HttpStatus;
 use App\Http\Requests\LoginAuthRequest;
 use App\Http\Requests\RegisterAuthRequest;
 use App\Http\Resources\UserResource;
-use App\Http\Responses\ErrorResponse;
 use App\Http\Responses\Response;
 use Illuminate\Support\Facades\Auth;
 
@@ -29,7 +28,7 @@ class AuthService implements AuthServiceInterface
     public function register(RegisterAuthRequest $request): Response
     {
         if (!$request->validated()) {
-            return new ErrorResponse(
+            return new Response(
                 'Invalid Request',
                 HttpStatus::BAD_REQUEST,
                 $request->errors(),
@@ -49,7 +48,7 @@ class AuthService implements AuthServiceInterface
                 new UserResource($user)
             );
         } catch (Exception $e) {
-            return new ErrorResponse(
+            return new Response(
                 $e->getMessage(),
                 HttpStatus::INTERNAL_SERVER_ERROR
             );
@@ -65,7 +64,7 @@ class AuthService implements AuthServiceInterface
     public function login(LoginAuthRequest $request): Response
     {
         if (!$request->validated()) {
-            return new ErrorResponse(
+            return new Response(
                 'Invalid Request',
                 HttpStatus::BAD_REQUEST,
                 $request->errors(),
@@ -73,7 +72,7 @@ class AuthService implements AuthServiceInterface
         }
 
         if (!Auth::attempt($request->only('email', 'password'))) {
-            return new ErrorResponse(
+            return new Response(
                 'User not recognized',
                 HttpStatus::UNAUTHORIZED
             );
