@@ -28,5 +28,5 @@ services:
         fromDatabase: true
 
 databases:
-  - name: services
+  - name: pgsql
     plan: free
