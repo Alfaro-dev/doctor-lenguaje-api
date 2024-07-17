@@ -34,7 +34,7 @@ RUN chown -R www-data:www-data /var/www
 RUN chmod -R 755 /var/www
 
 # Instalar dependencias de PHP
-RUN composer install --no-dev --optimize-autoloader --no-interaction --prefer-dist
+RUN composer install --optimize-autoloader --no-dev
 
 # Exponer el puerto 9000 y ejecutar el servidor PHP
 EXPOSE 9000
