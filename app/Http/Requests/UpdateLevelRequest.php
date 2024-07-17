@@ -22,8 +22,8 @@ class UpdateLevelRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'name' => 'required|string',
-            'lenguaje_id' => 'required|integer',
+            'name' => 'string',
+            'lenguaje_id' => 'integer',
         ];
     }
 
@@ -35,9 +35,7 @@ class UpdateLevelRequest extends FormRequest
     public function messages(): array
     {
         return [
-            'name.required' => 'El nombre es requerido',
             'name.string' => 'El nombre debe ser una cadena de texto',
-            'lenguaje_id.required' => 'El id del lenguaje es requerido',
             'lenguaje_id.integer' => 'El id del lenguaje debe ser un número entero',
         ];
     }

@@ -27,14 +27,6 @@ class AuthService implements AuthServiceInterface
      */
     public function register(RegisterAuthRequest $request): Response
     {
-        if (!$request->validated()) {
-            return new Response(
-                'Invalid Request',
-                HttpStatus::BAD_REQUEST,
-                $request->errors(),
-            );
-        }
-
         try {
             $user = $this->userService->create($request->all());
 
@@ -42,16 +34,10 @@ class AuthService implements AuthServiceInterface
                 throw new Exception('User not created');
             }
 
-            return new Response(
-                'User Created Successfully',
-                HttpStatus::CREATED,
-                new UserResource($user)
-            );
+            return Response::created(new UserResource($user), 'User Created Successfully');
+
         } catch (Exception $e) {
-            return new Response(
-                $e->getMessage(),
-                HttpStatus::INTERNAL_SERVER_ERROR
-            );
+            return Response::error($e->getMessage());
         }
     }
 
@@ -63,36 +49,28 @@ class AuthService implements AuthServiceInterface
      */
     public function login(LoginAuthRequest $request): Response
     {
-        if (!$request->validated()) {
-            return new Response(
-                'Invalid Request',
-                HttpStatus::BAD_REQUEST,
-                $request->errors(),
+        try {
+            if (!Auth::attempt($request->only('email', 'password'))) {
+                return Response::unauthorized('Invalid credentials');
+            }
+    
+            $user = $this->userService->findByEmail($request->input('email'));
+    
+            $token = $user->createToken(
+                'auth_token'
+            )->plainTextToken;
+
+            return Response::accepted(
+                'Logged in successfully',
+                [
+                    'token' => $token,
+                    'token_type' => 'Bearer',
+                    'user' => new UserResource($user)
+                ]
             );
+        } catch (Exception $e) {
+            return Response::error($e->getMessage());
         }
-
-        if (!Auth::attempt($request->only('email', 'password'))) {
-            return new Response(
-                'User not recognized',
-                HttpStatus::UNAUTHORIZED
-            );
-        }
-
-        $user = $this->userService->findByEmail($request->input('email'));
-
-        $token = $user->createToken(
-            'auth_token'
-        )->plainTextToken;
-
-        return new Response(
-            'Logged In!', 
-            HttpStatus::ACCEPTED, 
-            [
-                'token' => $token,
-                'token_type' => 'Bearer',
-                'user' => new UserResource($user)
-            ]
-        );
     }
 
     /**
@@ -102,9 +80,13 @@ class AuthService implements AuthServiceInterface
      */
     public function logout(): Response
     {
-        $user = $this->userService->findById(Auth::user()->id);
-        $user->tokens()->delete();
-
-        return new Response('User logged out');
+        try {
+            $user = $this->userService->findById(Auth::user()->id);
+            $user->tokens()->delete();
+    
+            return Response::success(null, 'User logged out');
+        } catch (Exception $e) {
+            return Response::error($e->getMessage());
+        }
     }
 }

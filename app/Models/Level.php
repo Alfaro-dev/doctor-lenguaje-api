@@ -11,7 +11,8 @@ class Level extends Model
     use HasFactory, SoftDeletes;
 
     protected $fillable = [
-        'name'
+        'name',
+        'lenguaje_id'
     ];
 
     public function lenguaje()

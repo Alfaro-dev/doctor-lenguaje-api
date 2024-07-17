@@ -2,10 +2,9 @@
 
 namespace App\Services;
 
-use App\Http\Resources\LenguajeResource;
-use App\Http\Responses\HttpStatus;
-use App\Http\Responses\Response;
 use App\Models\Lenguaje;
+use App\Http\Resources\LenguajeResource;
+use App\Http\Responses\Response;
 
 class LenguajeService implements LenguajeServiceInterface
 {
@@ -20,8 +19,7 @@ class LenguajeService implements LenguajeServiceInterface
 
         $collection = LenguajeResource::collection($lenguajes);
 
-        // add reason and status to the response
-        return new Response("", HttpStatus::OK, $collection);
+        return Response::success($collection);
     }
 
     /**
@@ -37,7 +35,7 @@ class LenguajeService implements LenguajeServiceInterface
 
         $collection = new LenguajeResource($lenguaje);
 
-        return new Response("Lenguaje created successfully", HttpStatus::CREATED, $collection);
+        return Response::created($collection, 'Lenguaje created successfully');
     }
 
     /**
@@ -52,10 +50,12 @@ class LenguajeService implements LenguajeServiceInterface
         $lenguaje = Lenguaje::find($id);
 
         if (!$lenguaje) {
-            return Response('Lenguaje not found', HttpStatus::NOT_FOUND);
+            return Response::notFound('Lenguaje not found');
         }
 
-        return new Response($lenguaje);
+        $collection = new LenguajeResource($lenguaje);
+
+        return Response::success($collection);
     }
 
     /**
@@ -71,12 +71,14 @@ class LenguajeService implements LenguajeServiceInterface
         $lenguaje = Lenguaje::find($id);
 
         if (!$lenguaje) {
-            return Response('Lenguaje not found', HttpStatus::NOT_FOUND);
+            return Response::notFound('Lenguaje not found');
         }
 
         $lenguaje->update($data);
 
-        return new Response($lenguaje);
+        $collection = new LenguajeResource($lenguaje);
+
+        return Response::updated($collection, 'Lenguaje updated successfully');
     }
 
     /**
@@ -90,11 +92,11 @@ class LenguajeService implements LenguajeServiceInterface
         $lenguaje = Lenguaje::find($id);
 
         if (!$lenguaje) {
-            return Response('Lenguaje not found', HttpStatus::NOT_FOUND);
+            return Response::notFound('Lenguaje not found');
         }
 
         $lenguaje->delete();
 
-        return new Response("", HttpStatus::OK);
+        return Response::deleted('Lenguaje deleted successfully');
     }
 }

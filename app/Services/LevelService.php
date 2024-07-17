@@ -1,9 +1,10 @@
 <?php
-    namespace App\Services;
 
-use App\Http\Responses\HttpStatus;
-use App\Http\Responses\Response;
+namespace App\Services;
+
 use App\Models\Level;
+use App\Http\Resources\LevelResource;
+use App\Http\Responses\Response;
 
 class LevelService implements LevelServiceInterface 
 {
@@ -14,9 +15,11 @@ class LevelService implements LevelServiceInterface
      */
     public function getAll() : Response
     {
-        $levels = Level::with('modules.lessons')->get();
+        $levels = Level::all();
 
-        return new Response("", HttpStatus::OK, $levels);
+        $collection = LevelResource::collection($levels);
+
+        return Response::success($collection);
     }
 
     /**
@@ -29,7 +32,9 @@ class LevelService implements LevelServiceInterface
     {
         $level = Level::create($data);
 
-        return new Response($level, HttpStatus::CREATED);
+        $collection = new LevelResource($level);
+
+        return Response::created($collection, 'Level created successfully');
     }
 
     /**
@@ -43,10 +48,12 @@ class LevelService implements LevelServiceInterface
         $level = Level::with('modules.lessons')->find($id);
 
         if (!$level) {
-            return Response('Level not found', HttpStatus::NOT_FOUND);
+            return Response::notFound('Level not found');
         }
 
-        return new Response($level);
+        $collection = new LevelResource($level);
+
+        return Response::success($collection);
     }
 
     /**
@@ -61,12 +68,14 @@ class LevelService implements LevelServiceInterface
         $level = Level::find($id);
 
         if (!$level) {
-            return Response('Level not found', HttpStatus::NOT_FOUND);
+            return Response::notFound('Level not found');
         }
 
         $level->update($data);
 
-        return new Response($level);
+        $collection = new LevelResource($level);
+
+        return Response::updated($collection, 'Level updated successfully');
     }
 
     /**
@@ -80,12 +89,11 @@ class LevelService implements LevelServiceInterface
         $level = Level::find($id);
 
         if (!$level) {
-            return Response('Level not found', HttpStatus::NOT_FOUND);
+            return Response::notFound('Level not found');
         }
 
         $level->delete();
 
-        // retornar que se eleimino satifactoriamente
-        return new Response('Deleted successfully', HttpStatus::OK);
+        return Response::deleted('Level deleted successfully');
     }
 }

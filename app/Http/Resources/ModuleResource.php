@@ -17,7 +17,7 @@ class ModuleResource extends JsonResource
         return [
             'id' => $this->id,
             'name' => $this->name,
-            'level_id' => $this->level_id,
+            'description' => $this->description,
             'lessons' => LessonResource::collection($this->lessons)
         ];
     }

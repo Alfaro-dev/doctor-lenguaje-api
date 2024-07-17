@@ -2,9 +2,9 @@
 
 namespace App\Services;
 
-use App\Http\Responses\HttpStatus;
-use App\Http\Responses\Response;
 use App\Models\Lesson;
+use App\Http\Resources\LessonResource;
+use App\Http\Responses\Response;
 
 class LessonService implements LessonServiceInterface
 {
@@ -17,7 +17,9 @@ class LessonService implements LessonServiceInterface
     {
         $lessons = Lesson::all();
 
-        return new Response("", HttpStatus::OK, $lessons);
+        $collection = LessonResource::collection($lessons);
+
+        return Response::success($collection);
     }
 
     /**
@@ -30,7 +32,9 @@ class LessonService implements LessonServiceInterface
     {
         $lesson = Lesson::create($data);
 
-        return new Response("Lesson created successfully", HttpStatus::CREATED, $lesson);
+        $collection = new LessonResource($lesson);
+
+        return Response::created($collection, 'Lesson created successfully');
     }
 
     /**
@@ -44,10 +48,12 @@ class LessonService implements LessonServiceInterface
         $lesson = Lesson::find($id);
 
         if (!$lesson) {
-            return Response('Lesson not found', HttpStatus::NOT_FOUND);
+            return Response::notFound('Lesson not found');
         }
 
-        return new Response($lesson);
+        $collection = new LessonResource($lesson);
+
+        return Response::success($collection);
     }
 
     /**
@@ -62,12 +68,14 @@ class LessonService implements LessonServiceInterface
         $lesson = Lesson::find($id);
 
         if (!$lesson) {
-            return Response('Lesson not found', HttpStatus::NOT_FOUND);
+            return Response::notFound('Lesson not found');
         }
 
         $lesson->update($data);
 
-        return new Response("Lesson updated successfully", HttpStatus::OK, $lesson);
+        $collection = new LessonResource($lesson);
+
+        return Response::updated($collection, 'Lesson updated successfully');
     }
 
     /**
@@ -81,11 +89,11 @@ class LessonService implements LessonServiceInterface
         $lesson = Lesson::find($id);
 
         if (!$lesson) {
-            return Response('Lesson not found', HttpStatus::NOT_FOUND);
+            return Response::notFound('Lesson not found');
         }
 
         $lesson->delete();
 
-        return new Response("Lesson deleted successfully", HttpStatus::OK);
+        return Response::deleted('Lesson deleted successfully');
     }
 }

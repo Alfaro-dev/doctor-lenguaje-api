@@ -2,9 +2,9 @@
 
 namespace App\Services;
 
-use App\Http\Responses\HttpStatus;
-use App\Http\Responses\Response;
 use App\Models\Module;
+use App\Http\Resources\ModuleResource;
+use App\Http\Responses\Response;
 
 class ModuleService implements ModuleServiceInterface
 {
@@ -17,7 +17,9 @@ class ModuleService implements ModuleServiceInterface
     {
         $modules = Module::with('lessons')->get();
 
-        return new Response("", HttpStatus::OK, $modules);
+        $collection = ModuleResource::collection($modules);
+
+        return Response::success($collection);
     }
 
     /**
@@ -30,7 +32,9 @@ class ModuleService implements ModuleServiceInterface
     {
         $module = Module::create($data);
 
-        return new Response("Module created successfully", HttpStatus::CREATED, $module);
+        $collection = new ModuleResource($module);
+
+        return Response::created($collection, 'Module created successfully');
     }
 
     /**
@@ -44,10 +48,12 @@ class ModuleService implements ModuleServiceInterface
         $module = Module::with('lessons')->find($id);
 
         if (!$module) {
-            return Response('Module not found', HttpStatus::NOT_FOUND);
+            return Response::notFound('Module not found');
         }
 
-        return new Response($module);
+        $collection = new ModuleResource($module);
+
+        return Response::success($collection);
     }
 
     /**
@@ -62,12 +68,14 @@ class ModuleService implements ModuleServiceInterface
         $module = Module::find($id);
 
         if (!$module) {
-            return new Response('Module not found', HttpStatus::NOT_FOUND);
+            return Response::notFound('Module not found');
         }
 
         $module->update($data);
 
-        return new Response("Module updated successfully", HttpStatus::OK, $module);
+        $collection = new ModuleResource($module);
+
+        return Response::updated($collection, 'Module updated successfully');
     }
 
     /**
@@ -81,11 +89,11 @@ class ModuleService implements ModuleServiceInterface
         $module = Module::find($id);
 
         if (!$module) {
-            return new Response('Module not found', HttpStatus::NOT_FOUND);
+            return Response::notFound('Module not found');
         }
 
         $module->delete();
 
-        return new Response("Module deleted successfully", HttpStatus::OK);
+        return Response::deleted('Module deleted successfully');
     }
 }
