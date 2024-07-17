@@ -1,41 +1,64 @@
-# Usar la imagen oficial de PHP con Laravel
-FROM php:8.0-fpm
+FROM php:8.1-fpm
 
-# Instalar dependencias de sistema
+# Set working directory
+WORKDIR /var/www
+
+# Add docker php ext repo
+ADD https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions /usr/local/bin/
+
+# Install php extensions
+RUN chmod +x /usr/local/bin/install-php-extensions && sync && \
+    install-php-extensions mbstring pgsql pdo_pgsql zip pcntl memcached redis gd
+
+# Install dependencies
 RUN apt-get update && apt-get install -y \
     build-essential \
     libpng-dev \
-    libjpeg-dev \
+    libjpeg62-turbo-dev \
     libfreetype6-dev \
-    libonig-dev \
-    libzip-dev \
+    locales \
     zip \
+    jpegoptim optipng pngquant gifsicle \
     unzip \
     git \
     curl \
-    libpq-dev \
-    libssl-dev \
-    pkg-config
+    lua-zlib-dev \
+    libmemcached-dev \
+    nginx \
+    lsof
 
-# Instalar extensiones de PHP
-RUN docker-php-ext-install pdo_pgsql pdo_mysql mbstring exif pcntl bcmath gd zip
+# Install supervisor
+RUN apt-get install -y supervisor 
+#RUN apt-get install -y python3 python3-venv libaugeas0
+#RUN python3 -m venv /opt/certbot/ && /opt/certbot/bin/pip install --upgrade pip && /opt/certbot/bin/pip install certbot && ln -s /opt/certbot/bin/certbot /usr/bin/certbot
 
-# Instalar Composer
+# Install composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-# Establecer directorio de trabajo
-WORKDIR /var/www
+# Clear cache
+RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Copiar todos los archivos y directorios al contenedor
-COPY . .
+# Add user for laravel application
+RUN groupadd -g 1000 www
+RUN useradd -u 1000 -ms /bin/bash -g www www
 
-# Establecer permisos de directorio para evitar problemas de permisos
-RUN chown -R www-data:www-data /var/www
-RUN chmod -R 755 /var/www
+# Copy code to /var/www
+COPY --chown=www:www-data . /var/www
 
-# Instalar dependencias de PHP
+# add root to www group
+RUN chmod -R ug+w /var/www/storage
+
+# Copy nginx/php/supervisor configs
+RUN cp docker/supervisor.conf /etc/supervisord.conf
+RUN cp docker/php.ini /usr/local/etc/php/conf.d/app.ini
+RUN cp docker/nginx.conf /etc/nginx/sites-enabled/default
+
+# PHP Error Log Files
+RUN mkdir /var/log/php
+RUN touch /var/log/php/errors.log && chmod 777 /var/log/php/errors.log
+
+# Deployment steps
 RUN composer install --optimize-autoloader --no-dev
-
-# Exponer el puerto 9000 y ejecutar el servidor PHP
-EXPOSE 9000
-CMD ["php-fpm"]
+RUN chmod +x /var/www/docker/run.sh
+EXPOSE 80
+ENTRYPOINT ["/var/www/docker/run.sh"]
