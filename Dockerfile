@@ -1,64 +1,20 @@
-FROM php:8.2-fpm
+FROM richarvey/nginx-php-fpm:3.1.6
 
-# Set working directory
-WORKDIR /var/www
+COPY . .
 
-# Add docker php ext repo
-ADD https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions /usr/local/bin/
+# Image config
+ENV SKIP_COMPOSER 1
+ENV WEBROOT /var/www/html/public
+ENV PHP_ERRORS_STDERR 1
+ENV RUN_SCRIPTS 1
+ENV REAL_IP_HEADER 1
 
-# Install php extensions
-RUN chmod +x /usr/local/bin/install-php-extensions && sync && \
-    install-php-extensions mbstring pgsql pdo_pgsql zip pcntl memcached redis gd
+# Laravel config
+ENV APP_ENV production
+ENV APP_DEBUG false
+ENV LOG_CHANNEL stderr
 
-# Install dependencies
-RUN apt-get update && apt-get install -y \
-    build-essential \
-    libpng-dev \
-    libjpeg62-turbo-dev \
-    libfreetype6-dev \
-    locales \
-    zip \
-    jpegoptim optipng pngquant gifsicle \
-    unzip \
-    git \
-    curl \
-    lua-zlib-dev \
-    libmemcached-dev \
-    nginx \
-    lsof
+# Allow composer to run as root
+ENV COMPOSER_ALLOW_SUPERUSER 1
 
-# Install supervisor
-RUN apt-get install -y supervisor 
-#RUN apt-get install -y python3 python3-venv libaugeas0
-#RUN python3 -m venv /opt/certbot/ && /opt/certbot/bin/pip install --upgrade pip && /opt/certbot/bin/pip install certbot && ln -s /opt/certbot/bin/certbot /usr/bin/certbot
-
-# Install composer
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-
-# Clear cache
-RUN apt-get clean && rm -rf /var/lib/apt/lists/*
-
-# Add user for laravel application
-RUN groupadd -g 1000 www
-RUN useradd -u 1000 -ms /bin/bash -g www www
-
-# Copy code to /var/www
-COPY --chown=www:www-data . /var/www
-
-# add root to www group
-RUN chmod -R ug+w /var/www/storage
-
-# Copy nginx/php/supervisor configs
-RUN cp docker/supervisor.conf /etc/supervisord.conf
-RUN cp docker/php.ini /usr/local/etc/php/conf.d/app.ini
-RUN cp docker/nginx.conf /etc/nginx/sites-enabled/default
-
-# PHP Error Log Files
-RUN mkdir /var/log/php
-RUN touch /var/log/php/errors.log && chmod 777 /var/log/php/errors.log
-
-# Deployment steps
-RUN composer install
-RUN chmod +x /var/www/docker/run.sh
-EXPOSE 80
-ENTRYPOINT ["/var/www/docker/run.sh"]
+CMD ["/start.sh"]
