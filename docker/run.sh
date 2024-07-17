@@ -4,12 +4,11 @@ cd /var/www
 
 php artisan optimize
 php artisan migrate --force
-php artisan populate-apps
 php artisan config:cache
 php artisan route:cache
 php artisan storage:link
 php artisan event:cache
-php artisan db:seed --force
+php artisan db:seed --class=LevelsAndModulesSeeder
 
 chmod -R 0777 storage
 
