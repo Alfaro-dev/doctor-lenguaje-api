@@ -1,5 +1,3 @@
-# Dockerfile
-
 # Usar la imagen oficial de PHP con Laravel
 FROM php:8.0-fpm
 
@@ -15,7 +13,9 @@ RUN apt-get update && apt-get install -y \
     unzip \
     git \
     curl \
-    libpq-dev
+    libpq-dev \
+    libssl-dev \
+    pkg-config
 
 # Instalar extensiones de PHP
 RUN docker-php-ext-install pdo_pgsql pdo_mysql mbstring exif pcntl bcmath gd zip
@@ -29,11 +29,12 @@ WORKDIR /var/www
 # Copiar todos los archivos y directorios al contenedor
 COPY . .
 
-# Instalar dependencias de PHP
-RUN composer install --no-dev --optimize-autoloader
-
-# Establecer permisos de directorio
+# Establecer permisos de directorio para evitar problemas de permisos
 RUN chown -R www-data:www-data /var/www
+RUN chmod -R 755 /var/www
+
+# Instalar dependencias de PHP
+RUN composer install --no-dev --optimize-autoloader --no-interaction --prefer-dist
 
 # Exponer el puerto 9000 y ejecutar el servidor PHP
 EXPOSE 9000
