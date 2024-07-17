@@ -28,5 +28,5 @@ services:
         fromDatabase: true
 
 databases:
-  - name: your-database-name
+  - name: services
     plan: free
