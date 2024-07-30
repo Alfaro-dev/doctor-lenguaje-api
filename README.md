@@ -12,7 +12,7 @@ Orange Box API es una aplicación backend desarrollada en Laravel, que proporcio
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/orange-box-backend.git
+   git clone https://github.com/Alfaro-dev/doctor-lenguaje-api.git
    cd orange-box-backend
    ```
 
