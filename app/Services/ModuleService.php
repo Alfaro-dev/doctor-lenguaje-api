@@ -15,7 +15,7 @@ class ModuleService implements ModuleServiceInterface
      */
     public function getAll() : Response
     {
-        $modules = Module::with('lessons')->get();
+        $modules = Module::with('level')->with('lessons')->get();
 
         $collection = ModuleResource::collection($modules);
 
@@ -45,7 +45,7 @@ class ModuleService implements ModuleServiceInterface
      */
     public function findById(int $id): Response
     {
-        $module = Module::with('lessons')->find($id);
+        $module = Module::with('level')->with('lessons')->find($id);
 
         if (!$module) {
             return Response::notFound('Module not found');

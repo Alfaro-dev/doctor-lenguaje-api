@@ -18,6 +18,7 @@ class ModuleResource extends JsonResource
             'id' => $this->id,
             'name' => $this->name,
             'description' => $this->description,
+            'level' => new LevelResource($this->level),
             'lessons' => LessonResource::collection($this->lessons)
         ];
     }
