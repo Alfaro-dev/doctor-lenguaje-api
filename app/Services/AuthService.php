@@ -50,11 +50,16 @@ class AuthService implements AuthServiceInterface
     public function login(LoginAuthRequest $request): Response
     {
         try {
-            if (!Auth::attempt($request->only('email', 'password'))) {
+
+            $email = $request->input('email');
+            $password = $request->input('password');
+            $remenberMe = $request->has('remember_me') ? $request->input('remember_me') : false;
+
+            if (!Auth::attempt(['email' => $email, 'password' => $password], $remenberMe)) {
                 return Response::unauthorized('Invalid credentials');
             }
     
-            $user = $this->userService->findByEmail($request->input('email'));
+            $user = $this->userService->findByEmail($email);
     
             $token = $user->createToken(
                 'auth_token'
