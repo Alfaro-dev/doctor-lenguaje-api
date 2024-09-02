@@ -39,6 +39,8 @@ class LoginAuthRequest extends FormRequest
             'email.required' => 'Email is required',
             'email.email' => 'Email is invalid',
             'password.required' => 'Password is required',
+            'password.string' => 'Password must be a string',
+            'remember_me.boolean' => 'Remember me must be a boolean',
         ];
     }
 }

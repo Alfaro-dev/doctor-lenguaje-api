@@ -22,10 +22,13 @@ class RegisterAuthRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'name' => 'required',
+            'name' => 'required|string',
             'email' => 'required|email|unique:users',
             'password' => 'required',
             'password_confirmation' => 'required|same:password',
+            'reason' => 'required|string',
+            'time_commitment' => 'required|string',
+            'current_level' => 'required|string',
         ];
     }
 
@@ -38,12 +41,19 @@ class RegisterAuthRequest extends FormRequest
     {
         return [
             'name.required' => 'Name is required',
+            'name.string' => 'Name must be a string',
             'email.required' => 'Email is required',
             'email.email' => 'Email is invalid',
             'email.unique' => 'Email is already taken',
             'password.required' => 'Password is required',
             'password_confirmation.required' => 'Confirm Password is required',
             'password_confirmation.same' => 'Password does not match',
+            'reason.required' => 'Reason is required',
+            'reason.string' => 'Reason must be a string',
+            'time_commitment.required' => 'Time commitment is required',
+            'time_commitment.string' => 'Time commitment must be a string',
+            'current_level.required' => 'Current level is required',
+            'current_level.string' => 'Current level must be a string',
         ];
     }
 }

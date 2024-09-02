@@ -17,8 +17,15 @@ class LessonResource extends JsonResource
         return [
             'id' => $this->id,
             'title' => $this->title,
+            'order' => $this->order,
             'description' => $this->description,
-            'grammar' => $this->grammar,
+            'grammar_topic' => $this->grammar_topic,
+            'experience_points' => $this->experience_points,
+            'objective' => $this->objective,
+            'vocabulary' => $this->vocabulary,
+            'verbs' => $this->verbs,
+            'native_expression' => $this->native_expression,
+            'content' => $this->content,
         ];
     }
 }

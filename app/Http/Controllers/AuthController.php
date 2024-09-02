@@ -40,6 +40,16 @@ class AuthController extends Controller
     }
 
     /**
+     * Me api
+     * @return JsonResponse
+     */
+    public function me(): JsonResponse
+    {
+        $meUserResponse = $this->authService->me();
+        return $meUserResponse->getJsonResponse();
+    }
+
+    /**
      * Logout api
      * @return JsonResponse
      */

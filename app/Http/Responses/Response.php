@@ -82,7 +82,6 @@ class Response
         return new Response($reason, HttpStatus::OK);
     }
 
-
     static public function badRequest(string $reason = '', mixed $data = null): Response
     {
         return new Response($reason, HttpStatus::BAD_REQUEST, $data);
@@ -111,5 +110,10 @@ class Response
     static public function internalServerError(string $reason = '', mixed $data = null): Response
     {
         return new Response($reason, HttpStatus::INTERNAL_SERVER_ERROR, $data);
+    }
+
+    static public function notImplemented(string $reason = '', mixed $data = null): Response
+    {
+        return new Response($reason, HttpStatus::NOT_IMPLEMENTED, $data);
     }
 }

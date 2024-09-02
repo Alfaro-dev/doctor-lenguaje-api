@@ -3,7 +3,6 @@
 namespace App\Services;
 
 use Exception;
-use App\Http\Responses\HttpStatus;
 use App\Http\Requests\LoginAuthRequest;
 use App\Http\Requests\RegisterAuthRequest;
 use App\Http\Resources\UserResource;
@@ -73,6 +72,21 @@ class AuthService implements AuthServiceInterface
                     'user' => new UserResource($user)
                 ]
             );
+        } catch (Exception $e) {
+            return Response::error($e->getMessage());
+        }
+    }
+
+    /**
+     * Get the authenticated user
+     *
+     * @return Response
+     */
+    public function me(): Response
+    {
+        try {
+            $user = $this->userService->findById(Auth::user()->id);
+            return Response::success(new UserResource($user));
         } catch (Exception $e) {
             return Response::error($e->getMessage());
         }

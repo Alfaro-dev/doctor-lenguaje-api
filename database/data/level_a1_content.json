@@ -1,0 +1,1393 @@
+{
+    "level_a1": {
+        "modules": [
+            {
+                "module": "Introduction to Basic English",
+                "description": "Basics of English for beginners",
+                "lessons": [
+                    {
+                        "order": 1,
+                        "title": "Learning the Alphabet",
+                        "grammar_topic": "Alphabet and Pronunciation",
+                        "description": "Introduction to the English alphabet and basic pronunciation.",
+                        "objective": "Learn the basic letters and sounds of the English alphabet.",
+                        "vocabulary": [
+                            "A",
+                            "B",
+                            "C",
+                            "D",
+                            "E",
+                            "F",
+                            "G"
+                        ],
+                        "verbs": [
+                            "pronounce",
+                            "spell"
+                        ],
+                        "native_expression": {
+                            "expression": "ABC",
+                            "example": "It's as easy as ABC."
+                        },
+                        "content": {
+                            "vocabulary_presentation": {
+                                "words": [
+                                    {
+                                        "word": "A",
+                                        "translation": "A",
+                                        "image": "a.jpg",
+                                        "audio": "a.mp3"
+                                    },
+                                    {
+                                        "word": "B",
+                                        "translation": "B",
+                                        "image": "b.jpg",
+                                        "audio": "b.mp3"
+                                    }
+                                ],
+                                "verbs": [
+                                    {
+                                        "verb": "pronounce",
+                                        "translation": "pronunciar",
+                                        "example": "Can you pronounce the word?"
+                                    },
+                                    {
+                                        "verb": "spell",
+                                        "translation": "deletrear",
+                                        "example": "Please spell your name."
+                                    }
+                                ],
+                                "native_expression": {
+                                    "expression": "ABC",
+                                    "meaning": "The basics",
+                                    "example": "It's as easy as ABC."
+                                }
+                            },
+                            "vocabulary_practice": {
+                                "flashcards": [
+                                    {
+                                        "word": "A",
+                                        "translation": "A"
+                                    },
+                                    {
+                                        "word": "B",
+                                        "translation": "B"
+                                    }
+                                ],
+                                "matching": [
+                                    {
+                                        "word": "A",
+                                        "image": "a.jpg"
+                                    },
+                                    {
+                                        "word": "B",
+                                        "image": "b.jpg"
+                                    }
+                                ],
+                                "fill_in_the_blanks": [
+                                    {
+                                        "sentence": "The first letter is ___ (A)",
+                                        "correct_answer": "A"
+                                    }
+                                ]
+                            },
+                            "grammar_introduction": {
+                                "explanation": "Learn the English alphabet and how to pronounce each letter.",
+                                "examples": [
+                                    {
+                                        "sentence": "A is for Apple.",
+                                        "translation": "A es para Manzana."
+                                    },
+                                    {
+                                        "sentence": "B is for Boy.",
+                                        "translation": "B es para Niño."
+                                    }
+                                ],
+                                "practice": [
+                                    {
+                                        "sentence": "___ (A) is the first letter of the alphabet.",
+                                        "correct_answer": "A"
+                                    }
+                                ]
+                            },
+                            "written_practice": {
+                                "translation": [
+                                    {
+                                        "sentence": "Write the first letter of the alphabet.",
+                                        "correct_answer": "A"
+                                    },
+                                    {
+                                        "sentence": "What letter comes after A?",
+                                        "correct_answer": "B"
+                                    }
+                                ],
+                                "fill_in_the_blanks": [
+                                    {
+                                        "sentence": "The alphabet starts with ___ (A).",
+                                        "correct_answer": "A"
+                                    }
+                                ],
+                                "examples_generated_by_chatgpt": [
+                                    {
+                                        "sentence": "The letter after B is C.",
+                                        "correct_answer": "C"
+                                    }
+                                ]
+                            },
+                            "listening_practice": {
+                                "audio": "alphabet_audio.mp3",
+                                "comprehension_questions": [
+                                    {
+                                        "question": "Which letter was pronounced first?",
+                                        "correct_answer": "A"
+                                    },
+                                    {
+                                        "question": "Which letter comes after B?",
+                                        "correct_answer": "C"
+                                    }
+                                ],
+                                "transcription": "A, B, C, D..."
+                            },
+                            "oral_practice": {
+                                "repetition": [
+                                    {
+                                        "sentence": "Repeat after me: A, B, C.",
+                                        "audio": "abc.mp3"
+                                    },
+                                    {
+                                        "sentence": "Now say D, E, F.",
+                                        "audio": "def.mp3"
+                                    }
+                                ],
+                                "recording": [
+                                    {
+                                        "sentence": "Say the alphabet from A to F.",
+                                        "audio": "user_recording.mp3"
+                                    }
+                                ],
+                                "evaluation": [
+                                    {
+                                        "feedback": "Good pronunciation of the alphabet."
+                                    }
+                                ]
+                            },
+                            "feedback_and_improvement": {
+                                "pronunciation_correction": [
+                                    {
+                                        "word": "A",
+                                        "correction": "Correct pronunciation is 'ay'."
+                                    },
+                                    {
+                                        "word": "B",
+                                        "correction": "Correct pronunciation is 'bee'."
+                                    }
+                                ],
+                                "suggestion_of_formulation": [
+                                    {
+                                        "sentence": "You can say 'A is for Apple' to remember the letter.",
+                                        "correction": "Better formulation."
+                                    }
+                                ],
+                                "improvement_tips": [
+                                    {
+                                        "tip": "Practice pronouncing each letter slowly to get the correct sound."
+                                    }
+                                ]
+                            },
+                            "additional_practice_and_review": {
+                                "interactive_games": [
+                                    {
+                                        "game": "Alphabet Matching",
+                                        "words": [
+                                            "A",
+                                            "B",
+                                            "C",
+                                            "D"
+                                        ]
+                                    },
+                                    {
+                                        "game": "Letter Sounds",
+                                        "words": [
+                                            "A",
+                                            "E",
+                                            "I",
+                                            "O",
+                                            "U"
+                                        ]
+                                    }
+                                ],
+                                "review_materials": [
+                                    {
+                                        "material": "Alphabet Chart",
+                                        "content": "A chart of all letters with images."
+                                    },
+                                    {
+                                        "material": "Practice Sheet",
+                                        "content": "Worksheet to practice writing letters."
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "title": "Saying Hello",
+                        "grammar_topic": "Basic Greetings and Introductions",
+                        "description": "Learn how to greet people and introduce yourself in English.",
+                        "objective": "Be able to greet others and introduce yourself in simple English.",
+                        "vocabulary": [
+                            "hello",
+                            "hi",
+                            "good morning",
+                            "goodbye",
+                            "name"
+                        ],
+                        "verbs": [
+                            "greet",
+                            "introduce"
+                        ],
+                        "native_expression": {
+                            "expression": "What's up?",
+                            "example": "What's up? How's it going?"
+                        },
+                        "content": {
+                            "vocabulary_presentation": {
+                                "words": [
+                                    {
+                                        "word": "hello",
+                                        "translation": "hola",
+                                        "image": "hello.jpg",
+                                        "audio": "hello.mp3"
+                                    },
+                                    {
+                                        "word": "goodbye",
+                                        "translation": "adios",
+                                        "image": "goodbye.jpg",
+                                        "audio": "goodbye.mp3"
+                                    }
+                                ],
+                                "verbs": [
+                                    {
+                                        "verb": "greet",
+                                        "translation": "saludar",
+                                        "example": "He greets everyone with a smile."
+                                    },
+                                    {
+                                        "verb": "introduce",
+                                        "translation": "presentar",
+                                        "example": "Let me introduce you to my friend."
+                                    }
+                                ],
+                                "native_expression": {
+                                    "expression": "What's up?",
+                                    "meaning": "How are you?",
+                                    "example": "What's up? How's it going?"
+                                }
+                            },
+                            "vocabulary_practice": {
+                                "flashcards": [
+                                    {
+                                        "word": "hello",
+                                        "translation": "hola"
+                                    },
+                                    {
+                                        "word": "goodbye",
+                                        "translation": "adios"
+                                    }
+                                ],
+                                "matching": [
+                                    {
+                                        "word": "hello",
+                                        "image": "hello.jpg"
+                                    },
+                                    {
+                                        "word": "goodbye",
+                                        "image": "goodbye.jpg"
+                                    }
+                                ],
+                                "fill_in_the_blanks": [
+                                    {
+                                        "sentence": "Say ___ (hello) when you meet someone.",
+                                        "correct_answer": "hello"
+                                    }
+                                ]
+                            },
+                            "grammar_introduction": {
+                                "explanation": "Learn basic greetings and how to introduce yourself in English.",
+                                "examples": [
+                                    {
+                                        "sentence": "Hello, my name is John.",
+                                        "translation": "Hola, me llamo John."
+                                    },
+                                    {
+                                        "sentence": "Goodbye, see you tomorrow.",
+                                        "translation": "Adiós, nos vemos mañana."
+                                    }
+                                ],
+                                "practice": [
+                                    {
+                                        "sentence": "___ (Hello), my name is Sarah.",
+                                        "correct_answer": "Hello"
+                                    }
+                                ]
+                            },
+                            "written_practice": {
+                                "translation": [
+                                    {
+                                        "sentence": "How do you say 'hola' in English?",
+                                        "correct_answer": "hello"
+                                    },
+                                    {
+                                        "sentence": "Write a sentence with 'goodbye'.",
+                                        "correct_answer": "Goodbye, see you later."
+                                    }
+                                ],
+                                "fill_in_the_blanks": [
+                                    {
+                                        "sentence": "When leaving, say ___ (goodbye).",
+                                        "correct_answer": "goodbye"
+                                    }
+                                ],
+                                "examples_generated_by_chatgpt": [
+                                    {
+                                        "sentence": "Say hello to your friend.",
+                                        "correct_answer": "hello"
+                                    }
+                                ]
+                            },
+                            "listening_practice": {
+                                "audio": "greetings_audio.mp3",
+                                "comprehension_questions": [
+                                    {
+                                        "question": "What do you say when you meet someone?",
+                                        "correct_answer": "hello"
+                                    },
+                                    {
+                                        "question": "What do you say when you leave?",
+                                        "correct_answer": "goodbye"
+                                    }
+                                ],
+                                "transcription": "Hello, my name is John. Goodbye, see you later."
+                            },
+                            "oral_practice": {
+                                "repetition": [
+                                    {
+                                        "sentence": "Repeat after me: Hello.",
+                                        "audio": "hello.mp3"
+                                    },
+                                    {
+                                        "sentence": "Now say Goodbye.",
+                                        "audio": "goodbye.mp3"
+                                    }
+                                ],
+                                "recording": [
+                                    {
+                                        "sentence": "Introduce yourself to a friend.",
+                                        "audio": "user_recording.mp3"
+                                    }
+                                ],
+                                "evaluation": [
+                                    {
+                                        "feedback": "Good use of greetings and introductions."
+                                    }
+                                ]
+                            },
+                            "feedback_and_improvement": {
+                                "pronunciation_correction": [
+                                    {
+                                        "word": "hello",
+                                        "correction": "Correct pronunciation is 'huh-loh'."
+                                    },
+                                    {
+                                        "word": "goodbye",
+                                        "correction": "Correct pronunciation is 'good-bye'."
+                                    }
+                                ],
+                                "suggestion_of_formulation": [
+                                    {
+                                        "sentence": "You can also say 'hi' instead of 'hello'.",
+                                        "correction": "Alternative formulation."
+                                    }
+                                ],
+                                "improvement_tips": [
+                                    {
+                                        "tip": "Practice saying greetings in front of a mirror to build confidence."
+                                    }
+                                ]
+                            },
+                            "additional_practice_and_review": {
+                                "interactive_games": [
+                                    {
+                                        "game": "Greeting Matching",
+                                        "words": [
+                                            "hello",
+                                            "goodbye"
+                                        ]
+                                    },
+                                    {
+                                        "game": "Introduction Practice",
+                                        "words": [
+                                            "my name is",
+                                            "I am"
+                                        ]
+                                    }
+                                ],
+                                "review_materials": [
+                                    {
+                                        "material": "Greeting Cards",
+                                        "content": "A set of cards with common greetings."
+                                    },
+                                    {
+                                        "material": "Practice Worksheet",
+                                        "content": "Worksheet to practice writing and saying greetings."
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "title": "Talking About Yourself",
+                        "grammar_topic": "Personal Pronouns",
+                        "description": "Practice using personal pronouns to talk about yourself and others.",
+                        "objective": "Learn how to use personal pronouns to talk about yourself and others.",
+                        "vocabulary": [
+                            "I",
+                            "you",
+                            "he",
+                            "she",
+                            "we",
+                            "they"
+                        ],
+                        "verbs": [
+                            "am",
+                            "are",
+                            "is"
+                        ],
+                        "native_expression": {
+                            "expression": "It's me.",
+                            "example": "Knock knock. Who's there? It's me!"
+                        },
+                        "content": {
+                            "vocabulary_presentation": {
+                                "words": [
+                                    {
+                                        "word": "I",
+                                        "translation": "yo",
+                                        "image": "i.jpg",
+                                        "audio": "i.mp3"
+                                    },
+                                    {
+                                        "word": "you",
+                                        "translation": "tú",
+                                        "image": "you.jpg",
+                                        "audio": "you.mp3"
+                                    }
+                                ],
+                                "verbs": [
+                                    {
+                                        "verb": "am",
+                                        "translation": "soy/estoy",
+                                        "example": "I am a student."
+                                    },
+                                    {
+                                        "verb": "are",
+                                        "translation": "eres/estás",
+                                        "example": "You are my friend."
+                                    }
+                                ],
+                                "native_expression": {
+                                    "expression": "It's me.",
+                                    "meaning": "I am here.",
+                                    "example": "It's me! Open the door."
+                                }
+                            },
+                            "vocabulary_practice": {
+                                "flashcards": [
+                                    {
+                                        "word": "I",
+                                        "translation": "yo"
+                                    },
+                                    {
+                                        "word": "you",
+                                        "translation": "tú"
+                                    }
+                                ],
+                                "matching": [
+                                    {
+                                        "word": "I",
+                                        "image": "i.jpg"
+                                    },
+                                    {
+                                        "word": "you",
+                                        "image": "you.jpg"
+                                    }
+                                ],
+                                "fill_in_the_blanks": [
+                                    {
+                                        "sentence": "___ (I) am here.",
+                                        "correct_answer": "I"
+                                    }
+                                ]
+                            },
+                            "grammar_introduction": {
+                                "explanation": "Learn to use personal pronouns in sentences.",
+                                "examples": [
+                                    {
+                                        "sentence": "I am happy.",
+                                        "translation": "Yo estoy feliz."
+                                    },
+                                    {
+                                        "sentence": "She is a teacher.",
+                                        "translation": "Ella es maestra."
+                                    }
+                                ],
+                                "practice": [
+                                    {
+                                        "sentence": "___ (I) am a student.",
+                                        "correct_answer": "I"
+                                    }
+                                ]
+                            },
+                            "written_practice": {
+                                "translation": [
+                                    {
+                                        "sentence": "Translate: Yo soy un estudiante.",
+                                        "correct_answer": "I am a student."
+                                    },
+                                    {
+                                        "sentence": "Translate: Tú eres mi amigo.",
+                                        "correct_answer": "You are my friend."
+                                    }
+                                ],
+                                "fill_in_the_blanks": [
+                                    {
+                                        "sentence": "She ___ (is) a teacher.",
+                                        "correct_answer": "is"
+                                    }
+                                ],
+                                "examples_generated_by_chatgpt": [
+                                    {
+                                        "sentence": "He is a doctor.",
+                                        "correct_answer": "He"
+                                    }
+                                ]
+                            },
+                            "listening_practice": {
+                                "audio": "pronouns_audio.mp3",
+                                "comprehension_questions": [
+                                    {
+                                        "question": "Who is a student?",
+                                        "correct_answer": "I am."
+                                    },
+                                    {
+                                        "question": "Who is your friend?",
+                                        "correct_answer": "You are."
+                                    }
+                                ],
+                                "transcription": "I am a student. You are my friend."
+                            },
+                            "oral_practice": {
+                                "repetition": [
+                                    {
+                                        "sentence": "Repeat after me: I am.",
+                                        "audio": "iam.mp3"
+                                    },
+                                    {
+                                        "sentence": "Now say: You are.",
+                                        "audio": "youare.mp3"
+                                    }
+                                ],
+                                "recording": [
+                                    {
+                                        "sentence": "Introduce yourself using pronouns.",
+                                        "audio": "user_recording.mp3"
+                                    }
+                                ],
+                                "evaluation": [
+                                    {
+                                        "feedback": "Good use of personal pronouns."
+                                    }
+                                ]
+                            },
+                            "feedback_and_improvement": {
+                                "pronunciation_correction": [
+                                    {
+                                        "word": "I",
+                                        "correction": "Correct pronunciation is 'eye'."
+                                    },
+                                    {
+                                        "word": "you",
+                                        "correction": "Correct pronunciation is 'yoo'."
+                                    }
+                                ],
+                                "suggestion_of_formulation": [
+                                    {
+                                        "sentence": "You can say 'I am a student' instead of 'Me student'.",
+                                        "correction": "Better formulation."
+                                    }
+                                ],
+                                "improvement_tips": [
+                                    {
+                                        "tip": "Practice using personal pronouns in everyday conversations."
+                                    }
+                                ]
+                            },
+                            "additional_practice_and_review": {
+                                "interactive_games": [
+                                    {
+                                        "game": "Pronoun Matching",
+                                        "words": [
+                                            "I",
+                                            "you",
+                                            "he",
+                                            "she"
+                                        ]
+                                    },
+                                    {
+                                        "game": "Verb-Pronoun Pairing",
+                                        "words": [
+                                            "am",
+                                            "are",
+                                            "is"
+                                        ]
+                                    }
+                                ],
+                                "review_materials": [
+                                    {
+                                        "material": "Pronoun Chart",
+                                        "content": "A chart showing all personal pronouns."
+                                    },
+                                    {
+                                        "material": "Practice Worksheet",
+                                        "content": "Worksheet to practice using pronouns in sentences."
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "title": "Counting to Ten",
+                        "grammar_topic": "Numbers 1-10",
+                        "description": "Learn the numbers from 1 to 10 and how to use them in sentences.",
+                        "objective": "Learn how to count from 1 to 10 and use numbers in sentences.",
+                        "vocabulary": [
+                            "one",
+                            "two",
+                            "three",
+                            "four",
+                            "five",
+                            "six",
+                            "seven",
+                            "eight",
+                            "nine",
+                            "ten"
+                        ],
+                        "verbs": [
+                            "count",
+                            "add"
+                        ],
+                        "native_expression": {
+                            "expression": "Count on it.",
+                            "example": "You can count on me."
+                        },
+                        "content": {
+                            "vocabulary_presentation": {
+                                "words": [
+                                    {
+                                        "word": "one",
+                                        "translation": "uno",
+                                        "image": "one.jpg",
+                                        "audio": "one.mp3"
+                                    },
+                                    {
+                                        "word": "two",
+                                        "translation": "dos",
+                                        "image": "two.jpg",
+                                        "audio": "two.mp3"
+                                    }
+                                ],
+                                "verbs": [
+                                    {
+                                        "verb": "count",
+                                        "translation": "contar",
+                                        "example": "Can you count to ten?"
+                                    },
+                                    {
+                                        "verb": "add",
+                                        "translation": "sumar",
+                                        "example": "Add two and two."
+                                    }
+                                ],
+                                "native_expression": {
+                                    "expression": "Count on it.",
+                                    "meaning": "Rely on it.",
+                                    "example": "Don't worry, you can count on it."
+                                }
+                            },
+                            "vocabulary_practice": {
+                                "flashcards": [
+                                    {
+                                        "word": "one",
+                                        "translation": "uno"
+                                    },
+                                    {
+                                        "word": "two",
+                                        "translation": "dos"
+                                    }
+                                ],
+                                "matching": [
+                                    {
+                                        "word": "one",
+                                        "image": "one.jpg"
+                                    },
+                                    {
+                                        "word": "two",
+                                        "image": "two.jpg"
+                                    }
+                                ],
+                                "fill_in_the_blanks": [
+                                    {
+                                        "sentence": "___ (one) is the first number.",
+                                        "correct_answer": "one"
+                                    }
+                                ]
+                            },
+                            "grammar_introduction": {
+                                "explanation": "Learn the numbers from 1 to 10 and how to use them in sentences.",
+                                "examples": [
+                                    {
+                                        "sentence": "One apple, two apples.",
+                                        "translation": "Una manzana, dos manzanas."
+                                    },
+                                    {
+                                        "sentence": "I have three books.",
+                                        "translation": "Tengo tres libros."
+                                    }
+                                ],
+                                "practice": [
+                                    {
+                                        "sentence": "___ (three) is more than two.",
+                                        "correct_answer": "Three"
+                                    }
+                                ]
+                            },
+                            "written_practice": {
+                                "translation": [
+                                    {
+                                        "sentence": "Translate: uno, dos, tres.",
+                                        "correct_answer": "one, two, three."
+                                    },
+                                    {
+                                        "sentence": "Translate: Tengo cuatro manzanas.",
+                                        "correct_answer": "I have four apples."
+                                    }
+                                ],
+                                "fill_in_the_blanks": [
+                                    {
+                                        "sentence": "Five ___ (apples).",
+                                        "correct_answer": "apples"
+                                    }
+                                ],
+                                "examples_generated_by_chatgpt": [
+                                    {
+                                        "sentence": "I have seven pens.",
+                                        "correct_answer": "seven"
+                                    }
+                                ]
+                            },
+                            "listening_practice": {
+                                "audio": "numbers_audio.mp3",
+                                "comprehension_questions": [
+                                    {
+                                        "question": "How many apples do I have?",
+                                        "correct_answer": "Three"
+                                    },
+                                    {
+                                        "question": "What is two plus two?",
+                                        "correct_answer": "Four"
+                                    }
+                                ],
+                                "transcription": "One, two, three, four, five, six, seven, eight, nine, ten."
+                            },
+                            "oral_practice": {
+                                "repetition": [
+                                    {
+                                        "sentence": "Repeat after me: One, two, three.",
+                                        "audio": "onetwothree.mp3"
+                                    },
+                                    {
+                                        "sentence": "Now say: Four, five, six.",
+                                        "audio": "fourfivesix.mp3"
+                                    }
+                                ],
+                                "recording": [
+                                    {
+                                        "sentence": "Count from one to ten.",
+                                        "audio": "user_recording.mp3"
+                                    }
+                                ],
+                                "evaluation": [
+                                    {
+                                        "feedback": "Good job counting to ten."
+                                    }
+                                ]
+                            },
+                            "feedback_and_improvement": {
+                                "pronunciation_correction": [
+                                    {
+                                        "word": "one",
+                                        "correction": "Correct pronunciation is 'wun'."
+                                    },
+                                    {
+                                        "word": "two",
+                                        "correction": "Correct pronunciation is 'too'."
+                                    }
+                                ],
+                                "suggestion_of_formulation": [
+                                    {
+                                        "sentence": "You can count objects to practice numbers.",
+                                        "correction": "Better formulation."
+                                    }
+                                ],
+                                "improvement_tips": [
+                                    {
+                                        "tip": "Practice counting objects around you to get comfortable with numbers."
+                                    }
+                                ]
+                            },
+                            "additional_practice_and_review": {
+                                "interactive_games": [
+                                    {
+                                        "game": "Number Matching",
+                                        "words": [
+                                            "one",
+                                            "two",
+                                            "three",
+                                            "four"
+                                        ]
+                                    },
+                                    {
+                                        "game": "Counting Game",
+                                        "words": [
+                                            "one",
+                                            "two",
+                                            "three",
+                                            "four",
+                                            "five"
+                                        ]
+                                    }
+                                ],
+                                "review_materials": [
+                                    {
+                                        "material": "Number Chart",
+                                        "content": "A chart of numbers 1 to 10 with images."
+                                    },
+                                    {
+                                        "material": "Practice Worksheet",
+                                        "content": "Worksheet to practice writing numbers."
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "title": "Days and Months",
+                        "grammar_topic": "Days of the Week and Months of the Year",
+                        "description": "Familiarize yourself with the days of the week and months of the year.",
+                        "objective": "Learn the days of the week and months of the year.",
+                        "vocabulary": [
+                            "Monday",
+                            "Tuesday",
+                            "Wednesday",
+                            "Thursday",
+                            "Friday",
+                            "Saturday",
+                            "Sunday"
+                        ],
+                        "verbs": [
+                            "is",
+                            "are"
+                        ],
+                        "native_expression": {
+                            "expression": "TGIF",
+                            "example": "TGIF! It's finally Friday."
+                        },
+                        "content": {
+                            "vocabulary_presentation": {
+                                "words": [
+                                    {
+                                        "word": "Monday",
+                                        "translation": "lunes",
+                                        "image": "monday.jpg",
+                                        "audio": "monday.mp3"
+                                    },
+                                    {
+                                        "word": "Friday",
+                                        "translation": "viernes",
+                                        "image": "friday.jpg",
+                                        "audio": "friday.mp3"
+                                    }
+                                ],
+                                "verbs": [
+                                    {
+                                        "verb": "is",
+                                        "translation": "es",
+                                        "example": "Today is Monday."
+                                    },
+                                    {
+                                        "verb": "are",
+                                        "translation": "son/están",
+                                        "example": "The days are long."
+                                    }
+                                ],
+                                "native_expression": {
+                                    "expression": "TGIF",
+                                    "meaning": "Thank God It's Friday",
+                                    "example": "TGIF! Let's go out tonight."
+                                }
+                            },
+                            "vocabulary_practice": {
+                                "flashcards": [
+                                    {
+                                        "word": "Monday",
+                                        "translation": "lunes"
+                                    },
+                                    {
+                                        "word": "Friday",
+                                        "translation": "viernes"
+                                    }
+                                ],
+                                "matching": [
+                                    {
+                                        "word": "Monday",
+                                        "image": "monday.jpg"
+                                    },
+                                    {
+                                        "word": "Friday",
+                                        "image": "friday.jpg"
+                                    }
+                                ],
+                                "fill_in_the_blanks": [
+                                    {
+                                        "sentence": "Today is ___ (Monday).",
+                                        "correct_answer": "Monday"
+                                    }
+                                ]
+                            },
+                            "grammar_introduction": {
+                                "explanation": "Learn the days of the week and months of the year.",
+                                "examples": [
+                                    {
+                                        "sentence": "Today is Monday.",
+                                        "translation": "Hoy es lunes."
+                                    },
+                                    {
+                                        "sentence": "January is the first month.",
+                                        "translation": "Enero es el primer mes."
+                                    }
+                                ],
+                                "practice": [
+                                    {
+                                        "sentence": "___ (January) is the first month of the year.",
+                                        "correct_answer": "January"
+                                    }
+                                ]
+                            },
+                            "written_practice": {
+                                "translation": [
+                                    {
+                                        "sentence": "Translate: lunes, martes, miércoles.",
+                                        "correct_answer": "Monday, Tuesday, Wednesday."
+                                    },
+                                    {
+                                        "sentence": "Translate: Hoy es viernes.",
+                                        "correct_answer": "Today is Friday."
+                                    }
+                                ],
+                                "fill_in_the_blanks": [
+                                    {
+                                        "sentence": "March ___ (is) a spring month.",
+                                        "correct_answer": "is"
+                                    }
+                                ],
+                                "examples_generated_by_chatgpt": [
+                                    {
+                                        "sentence": "December is the last month of the year.",
+                                        "correct_answer": "December"
+                                    }
+                                ]
+                            },
+                            "listening_practice": {
+                                "audio": "days_audio.mp3",
+                                "comprehension_questions": [
+                                    {
+                                        "question": "What day is today?",
+                                        "correct_answer": "Monday"
+                                    },
+                                    {
+                                        "question": "What is the first month?",
+                                        "correct_answer": "January"
+                                    }
+                                ],
+                                "transcription": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday."
+                            },
+                            "oral_practice": {
+                                "repetition": [
+                                    {
+                                        "sentence": "Repeat after me: Monday, Tuesday.",
+                                        "audio": "mondaytuesday.mp3"
+                                    },
+                                    {
+                                        "sentence": "Now say: Wednesday, Thursday.",
+                                        "audio": "wednesdaythursday.mp3"
+                                    }
+                                ],
+                                "recording": [
+                                    {
+                                        "sentence": "Name the days of the week.",
+                                        "audio": "user_recording.mp3"
+                                    }
+                                ],
+                                "evaluation": [
+                                    {
+                                        "feedback": "Great job naming the days of the week."
+                                    }
+                                ]
+                            },
+                            "feedback_and_improvement": {
+                                "pronunciation_correction": [
+                                    {
+                                        "word": "Monday",
+                                        "correction": "Correct pronunciation is 'Muhn-day'."
+                                    },
+                                    {
+                                        "word": "Friday",
+                                        "correction": "Correct pronunciation is 'Fry-day'."
+                                    }
+                                ],
+                                "suggestion_of_formulation": [
+                                    {
+                                        "sentence": "You can say 'TGIF' to express excitement for Friday.",
+                                        "correction": "Alternative formulation."
+                                    }
+                                ],
+                                "improvement_tips": [
+                                    {
+                                        "tip": "Practice saying the days of the week out loud to improve pronunciation."
+                                    }
+                                ]
+                            },
+                            "additional_practice_and_review": {
+                                "interactive_games": [
+                                    {
+                                        "game": "Days Matching",
+                                        "words": [
+                                            "Monday",
+                                            "Tuesday",
+                                            "Wednesday"
+                                        ]
+                                    },
+                                    {
+                                        "game": "Months of the Year",
+                                        "words": [
+                                            "January",
+                                            "February",
+                                            "March"
+                                        ]
+                                    }
+                                ],
+                                "review_materials": [
+                                    {
+                                        "material": "Days and Months Chart",
+                                        "content": "A chart showing all days and months."
+                                    },
+                                    {
+                                        "material": "Practice Worksheet",
+                                        "content": "Worksheet to practice writing days and months."
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "module": "Everyday Conversations",
+                "description": "Basic conversational skills for everyday situations",
+                "lessons": [
+                    {
+                        "title": "Asking for Directions",
+                        "grammar_topic": "Questions and Prepositions",
+                        "description": "Learn how to ask for and give directions using common phrases and prepositions."
+                    },
+                    {
+                        "title": "Ordering Food",
+                        "grammar_topic": "Common Phrases in Restaurants",
+                        "description": "Practice ordering food and drinks at a restaurant."
+                    },
+                    {
+                        "title": "Telling Time",
+                        "grammar_topic": "Time Expressions",
+                        "description": "Learn how to tell time and ask about the time in English."
+                    },
+                    {
+                        "title": "Shopping for Groceries",
+                        "grammar_topic": "Countable and Uncountable Nouns",
+                        "description": "Get familiar with common phrases and vocabulary for grocery shopping."
+                    },
+                    {
+                        "title": "Making Plans",
+                        "grammar_topic": "Simple Future (will, going to)",
+                        "description": "Learn how to make plans and talk about future events."
+                    }
+                ]
+            },
+            {
+                "module": "Home and Family",
+                "description": "Talking about your home and family",
+                "lessons": [
+                    {
+                        "title": "Describing Your House",
+                        "grammar_topic": "There is/There are",
+                        "description": "Learn how to describe your home using 'there is' and 'there are'."
+                    },
+                    {
+                        "title": "Family Members",
+                        "grammar_topic": "Possessive Adjectives",
+                        "description": "Practice talking about family members and using possessive adjectives."
+                    },
+                    {
+                        "title": "Daily Routines",
+                        "grammar_topic": "Present Simple Tense",
+                        "description": "Learn how to describe daily routines using the present simple tense."
+                    },
+                    {
+                        "title": "Household Chores",
+                        "grammar_topic": "Common Verbs for Chores",
+                        "description": "Familiarize yourself with vocabulary for common household chores."
+                    },
+                    {
+                        "title": "Talking About Pets",
+                        "grammar_topic": "Adjectives for Describing Pets",
+                        "description": "Learn how to talk about pets and describe them using adjectives."
+                    }
+                ]
+            },
+            {
+                "module": "Work and School",
+                "description": "Vocabulary and phrases for work and school",
+                "lessons": [
+                    {
+                        "title": "Your Job",
+                        "grammar_topic": "Job Titles and Workplaces",
+                        "description": "Learn common job titles and how to talk about your job."
+                    },
+                    {
+                        "title": "At the Office",
+                        "grammar_topic": "Present Continuous Tense",
+                        "description": "Practice using the present continuous tense to talk about ongoing activities at work."
+                    },
+                    {
+                        "title": "Meeting New Colleagues",
+                        "grammar_topic": "Formal and Informal Introductions",
+                        "description": "Learn how to introduce yourself and others in both formal and informal situations."
+                    },
+                    {
+                        "title": "School Subjects",
+                        "grammar_topic": "Articles (a, an, the)",
+                        "description": "Familiarize yourself with school subjects and practice using articles."
+                    },
+                    {
+                        "title": "Classroom Language",
+                        "grammar_topic": "Imperatives",
+                        "description": "Learn common classroom commands and instructions using imperatives."
+                    }
+                ]
+            },
+            {
+                "module": "Leisure and Hobbies",
+                "description": "Discussing free time activities and interests",
+                "lessons": [
+                    {
+                        "title": "Sports and Games",
+                        "grammar_topic": "Simple Past Tense",
+                        "description": "Learn how to talk about sports and games using the simple past tense."
+                    },
+                    {
+                        "title": "Watching Movies",
+                        "grammar_topic": "Types of Movies",
+                        "description": "Familiarize yourself with movie genres and how to talk about them."
+                    },
+                    {
+                        "title": "Listening to Music",
+                        "grammar_topic": "Expressing Preferences (like, love, hate)",
+                        "description": "Learn how to express your preferences in music using verbs like 'like', 'love', and 'hate'."
+                    },
+                    {
+                        "title": "Reading Books",
+                        "grammar_topic": "Adjectives for Describing Books",
+                        "description": "Practice describing books and giving your opinion on them."
+                    },
+                    {
+                        "title": "Playing Video Games",
+                        "grammar_topic": "Adverbs of Frequency",
+                        "description": "Learn how to talk about playing video games and how often you play."
+                    }
+                ]
+            },
+            {
+                "module": "Food and Dining",
+                "description": "Exploring food vocabulary and dining phrases",
+                "lessons": [
+                    {
+                        "title": "Cooking at Home",
+                        "grammar_topic": "Imperatives for Giving Instructions",
+                        "description": "Learn how to give cooking instructions using imperatives."
+                    },
+                    {
+                        "title": "Dining Out",
+                        "grammar_topic": "Restaurant Vocabulary",
+                        "description": "Familiarize yourself with common restaurant phrases and vocabulary."
+                    },
+                    {
+                        "title": "Grocery Shopping",
+                        "grammar_topic": "Quantifiers (some, any, many, much)",
+                        "description": "Learn how to use quantifiers when shopping for groceries."
+                    },
+                    {
+                        "title": "Describing Food",
+                        "grammar_topic": "Adjectives for Taste and Texture",
+                        "description": "Practice describing food using adjectives for taste and texture."
+                    },
+                    {
+                        "title": "Favorite Recipes",
+                        "grammar_topic": "Sequencing Words (first, next, then)",
+                        "description": "Learn how to talk about recipes using sequencing words."
+                    }
+                ]
+            },
+            {
+                "module": "Travel and Transportation",
+                "description": "Navigating travel and transportation situations",
+                "lessons": [
+                    {
+                        "title": "Planning a Trip",
+                        "grammar_topic": "Future Simple (will)",
+                        "description": "Learn how to plan a trip and talk about future arrangements."
+                    },
+                    {
+                        "title": "At the Airport",
+                        "grammar_topic": "Present Continuous for Future Arrangements",
+                        "description": "Practice using the present continuous tense for future plans at the airport."
+                    },
+                    {
+                        "title": "Using Public Transport",
+                        "grammar_topic": "Modals (can, could, may)",
+                        "description": "Learn how to navigate public transportation using modal verbs."
+                    },
+                    {
+                        "title": "Asking for Directions",
+                        "grammar_topic": "Imperatives",
+                        "description": "Familiarize yourself with asking for and giving directions."
+                    },
+                    {
+                        "title": "Staying at a Hotel",
+                        "grammar_topic": "There is/There are",
+                        "description": "Learn how to talk about hotel amenities using 'there is' and 'there are'."
+                    }
+                ]
+            },
+            {
+                "module": "Health and Wellness",
+                "description": "Discussing health, wellness, and fitness",
+                "lessons": [
+                    {
+                        "title": "At the Doctor",
+                        "grammar_topic": "Modal Verbs (should, must)",
+                        "description": "Learn how to talk about health concerns and advice using modal verbs."
+                    },
+                    {
+                        "title": "Healthy Eating",
+                        "grammar_topic": "Countable and Uncountable Nouns",
+                        "description": "Practice discussing healthy eating habits using countable and uncountable nouns."
+                    },
+                    {
+                        "title": "Exercise and Fitness",
+                        "grammar_topic": "Present Continuous for Actions in Progress",
+                        "description": "Learn how to talk about exercise routines using the present continuous tense."
+                    },
+                    {
+                        "title": "Talking About Illness",
+                        "grammar_topic": "Present Perfect (have been, have gone)",
+                        "description": "Familiarize yourself with discussing past experiences with illness using the present perfect tense."
+                    },
+                    {
+                        "title": "Mental Health",
+                        "grammar_topic": "Expressing Emotions (happy, sad, angry)",
+                        "description": "Learn how to express emotions and talk about mental health."
+                    }
+                ]
+            },
+            {
+                "module": "Shopping and Money",
+                "description": "Managing shopping and money-related situations",
+                "lessons": [
+                    {
+                        "title": "Buying Clothes",
+                        "grammar_topic": "Adjectives for Describing Clothes",
+                        "description": "Learn how to talk about clothes and describe them using adjectives."
+                    },
+                    {
+                        "title": "At the Mall",
+                        "grammar_topic": "Comparatives and Superlatives",
+                        "description": "Practice comparing prices and products using comparatives and superlatives."
+                    },
+                    {
+                        "title": "Handling Money",
+                        "grammar_topic": "Numbers and Prices",
+                        "description": "Learn how to talk about money, prices, and managing expenses."
+                    },
+                    {
+                        "title": "Paying for Things",
+                        "grammar_topic": "Modal Verbs (can, could)",
+                        "description": "Practice using modal verbs when paying for things in different situations."
+                    },
+                    {
+                        "title": "Talking About Prices",
+                        "grammar_topic": "Adjectives for Prices (cheap, expensive)",
+                        "description": "Learn how to describe prices and talk about the cost of items."
+                    }
+                ]
+            },
+            {
+                "module": "Weather and Nature",
+                "description": "Describing weather and natural surroundings",
+                "lessons": [
+                    {
+                        "title": "Describing the Weather",
+                        "grammar_topic": "Present Simple and Continuous",
+                        "description": "Learn how to describe the weather using present simple and continuous tenses."
+                    },
+                    {
+                        "title": "Seasons and Climate",
+                        "grammar_topic": "Comparatives and Superlatives",
+                        "description": "Practice talking about seasons and climate using comparatives and superlatives."
+                    },
+                    {
+                        "title": "Talking About Plants",
+                        "grammar_topic": "Adjectives for Describing Plants",
+                        "description": "Learn how to describe plants and their characteristics using adjectives."
+                    },
+                    {
+                        "title": "Animals and Insects",
+                        "grammar_topic": "Present Simple for Habits",
+                        "description": "Practice talking about animals and their habits using the present simple tense."
+                    },
+                    {
+                        "title": "Natural Disasters",
+                        "grammar_topic": "Past Simple for Describing Events",
+                        "description": "Learn how to describe natural disasters and past events using the past simple tense."
+                    }
+                ]
+            }
+        ]
+    }
+}

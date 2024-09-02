@@ -20,12 +20,7 @@ class LevelsAndModulesSeeder extends Seeder
     {
         // Define the JSON files to seed the database
         $jsonFiles = [
-            'Level A1' => 'data/level_a1.json',
-            'Level A2' => 'data/level_a2.json',
-            'Level B1' => 'data/level_b1.json',
-            'Level B2' => 'data/level_b2.json',
-            'Level C1' => 'data/level_c1.json',
-            'Level C2' => 'data/level_c2.json',
+            'Level A1' => 'data/level_a1.json'
         ];
 
         // Create the English language
@@ -59,7 +54,15 @@ class LevelsAndModulesSeeder extends Seeder
                     Lesson::create([
                         'module_id' => $module->id,
                         'title' => $lessonData['title'],
-                        'grammar' => $lessonData['grammar']
+                        'order' => $lessonData['order'],
+                        'description' => $lessonData['description'],
+                        'grammar_topic' => $lessonData['grammar_topic'],
+                        'experience_points' => $lessonData['experience_points'],
+                        'objective' => $lessonData['objective'],
+                        'vocabulary' => isset($lessonData['vocabulary']) ? $lessonData['vocabulary'] : [],
+                        'verbs' => isset($lessonData['verbs']) ? $lessonData['verbs'] : [],
+                        'native_expression' => isset($lessonData['native_expression']) ? $lessonData['native_expression'] : [],
+                        'content' => isset($lessonData['content']) ? $lessonData['content'] : [],
                     ]);
                 }
             }

@@ -17,7 +17,11 @@ class UserResource extends JsonResource
         return [
             'id' => $this->id,
             'name' => $this->name,
-            'email' => $this->email
+            'email' => $this->email,
+            'current_progress' => $this->relationLoaded('progress') ? new ProgressResource($this->progress->last()) : null,
+            'progress' => $this->relationLoaded('progress') ? ProgressResource::collection($this->progress) : null,
+            'experiences' => $this->relationLoaded('experiences') ? ExperienceResource::collection($this->experiences) : null,
+            'permissions' => $this->relationLoaded('permissions') ? PermissionResource::collection($this->permissions) : null,
         ];
     }
 }

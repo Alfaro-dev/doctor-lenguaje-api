@@ -14,7 +14,7 @@ class Lesson extends Model
         'module_id', 
         'title', 
         'description', 
-        'grammar', 
+        'grammar_topic', 
         'objective', 
         'vocabulary', 
         'verbs', 
