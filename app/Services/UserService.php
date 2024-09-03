@@ -79,6 +79,6 @@ class UserService implements UserServiceInterface
      * @return User|null
      */
     public function findByEmail(string $email): ?User {
-        return User::where('email', $email)->first();
+        return User::with(['progress', 'experiences', 'permissions'])->where('email', $email)->first();
     }
 }
