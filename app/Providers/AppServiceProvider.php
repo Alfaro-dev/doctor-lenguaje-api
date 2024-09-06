@@ -6,6 +6,8 @@ use Illuminate\Support\ServiceProvider;
 
 use App\Services\AuthService;
 use App\Services\AuthServiceInterface;
+use App\Services\LearningProgressService;
+use App\Services\LearningProgressServiceInterface;
 use App\Services\UserService;
 use App\Services\UserServiceInterface;
 use App\Services\LenguajeService;
@@ -30,6 +32,7 @@ class AppServiceProvider extends ServiceProvider
         $this->app->bind(LevelServiceInterface::class, LevelService::class);
         $this->app->bind(ModuleServiceInterface::class, ModuleService::class);
         $this->app->bind(LessonServiceInterface::class, LessonService::class);
+        $this->app->bind(LearningProgressServiceInterface::class, LearningProgressService::class);
     }
 
     /**

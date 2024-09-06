@@ -1,20 +1,21 @@
 <?php
    
 namespace App\Http\Controllers;
-   
-use App\Http\Controllers\Controller;
+
+use Illuminate\Http\JsonResponse;
+
+use App\Services\AuthServiceInterface;
+
 use App\Http\Requests\LoginAuthRequest;
 use App\Http\Requests\RegisterAuthRequest;
-use App\Services\AuthService;
-use Illuminate\Http\JsonResponse;
    
 class AuthController extends Controller
 {
-    protected AuthService $authService;
+    protected AuthServiceInterface $authServiceInterface;
 
-    public function __construct(AuthService $authService)
+    public function __construct(AuthServiceInterface $authServiceInterface)
     {
-        $this->authService = $authService;
+        $this->authServiceInterface = $authServiceInterface;
     }
 
     /**
@@ -24,7 +25,7 @@ class AuthController extends Controller
      */
     public function register(RegisterAuthRequest $request): JsonResponse
     {
-        $registerUserResponse = $this->authService->register($request);
+        $registerUserResponse = $this->authServiceInterface->register($request);
         return $registerUserResponse->getJsonResponse();
     }
    
@@ -35,7 +36,7 @@ class AuthController extends Controller
      */
     public function login(LoginAuthRequest $request): JsonResponse
     {
-        $loginUserResponse = $this->authService->login($request);
+        $loginUserResponse = $this->authServiceInterface->login($request);
         return $loginUserResponse->getJsonResponse(); 
     }
 
@@ -45,7 +46,7 @@ class AuthController extends Controller
      */
     public function me(): JsonResponse
     {
-        $meUserResponse = $this->authService->me();
+        $meUserResponse = $this->authServiceInterface->me();
         return $meUserResponse->getJsonResponse();
     }
 
@@ -55,7 +56,7 @@ class AuthController extends Controller
      */
     public function logout(): JsonResponse
     {
-        $logoutUserResponse = $this->authService->logout();
+        $logoutUserResponse = $this->authServiceInterface->logout();
         return $logoutUserResponse->getJsonResponse();
     }
 }

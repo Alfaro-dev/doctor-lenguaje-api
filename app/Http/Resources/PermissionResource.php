@@ -16,7 +16,7 @@ class PermissionResource extends JsonResource
     {
         return [
             'id' => $this->id,
-            'lesson_id' => $this->lesson_id,
+            'lesson' => $this->relationLoaded('lesson') ? LessonResource::collection($this->lesson) : $this->lesson_id,
             'is_accessible' => $this->is_accessible,
         ];
     }

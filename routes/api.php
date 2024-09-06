@@ -2,6 +2,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\LearningProgressController;
 use App\Http\Controllers\LenguajeController;
 use App\Http\Controllers\LevelController;
 use App\Http\Controllers\ModuleController;
@@ -17,6 +18,7 @@ Route::controller(AuthController::class)->group(function(){
 Route::middleware('auth:sanctum')->group(function () {
     //
     Route::get('/me', [AuthController::class, 'me']);
+    Route::get('/learning-progress', [LearningProgressController::class, 'index']);
     Route::post('/logout', [AuthController::class, 'logout']);   
 });
 

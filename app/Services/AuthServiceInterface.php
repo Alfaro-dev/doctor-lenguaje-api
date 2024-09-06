@@ -10,5 +10,6 @@ interface AuthServiceInterface
 {
     public function register(RegisterAuthRequest $request): Response;
     public function login(LoginAuthRequest $request): Response;
+    public function me(): Response;
     public function logout(): Response;
 }
