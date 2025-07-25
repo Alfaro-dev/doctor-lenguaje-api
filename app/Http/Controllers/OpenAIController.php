@@ -1,6 +1,7 @@
 <?php
 namespace App\Http\Controllers;
 
+use App\Http\Requests\AnalyzeAudioRequest;
 use App\Services\OpenAIService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
@@ -26,5 +27,16 @@ class OpenAIController extends Controller
         $generatedText = $this->openAIService->generateText($prompt);
 
         return $generatedText->getJsonResponse();
+    }
+
+    
+    public function analyzeAudio(AnalyzeAudioRequest $request) : JsonResponse
+    {
+        $analysis = $this->openAIService->analyzeAudio(
+            $request->file('audio'), 
+            $request->input('text')
+        );
+
+        return $analysis->getJsonResponse();
     }
 }

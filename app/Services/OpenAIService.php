@@ -70,4 +70,56 @@ class OpenAIService
             );
         }
     }
+
+    public function analyzeAudio($audio, $text): Response
+    {
+        try {
+            $response = $this->client->post('audio/transcriptions', [
+                'multipart' => [
+                    [
+                        'name'     => 'file',
+                        'contents' => fopen($audio->getPathname(), 'r'),
+                        'filename' => 'converted_audio.mp3',
+                    ],
+                    [
+                        'name'     => 'model',
+                        'contents' => 'whisper-1',
+                    ],
+                    [
+                        'name'     => 'language',
+                        'contents' => 'en',
+                    ],
+                    [
+                        'name'     => 'prompt',
+                        'contents' => 'Meticulously review the pronunciation of the following English audio. Evaluate every sound and intonation to ensure clarity and accuracy.',
+                    ],
+                ],
+            ]);
+
+            $body = json_decode($response->getBody()->getContents(), true);
+
+            if (!isset($body['translations'][0]['text'])) {
+                return new Response(
+                    'Audio analysis failed',
+                    HttpStatus::INTERNAL_SERVER_ERROR
+                );
+            }
+
+            $data = [
+                'text' => $body['translations'][0]['text'],
+            ];
+
+            return new Response(
+                'Audio analyzed successfully',
+                HttpStatus::OK,
+                $data
+            );
+
+        } catch (\Exception $e) {
+            return new Response(
+                $e->getMessage(),
+                HttpStatus::INTERNAL_SERVER_ERROR
+            );
+        }
+    }
 }

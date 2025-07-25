@@ -9,6 +9,7 @@ use App\Http\Controllers\ModuleController;
 use App\Http\Controllers\LessonController;
 
 use App\Http\Controllers\OpenAIController;
+use Illuminate\Support\Facades\Auth;
 
 Route::controller(AuthController::class)->group(function(){
     Route::post('register', 'register');
@@ -17,16 +18,24 @@ Route::controller(AuthController::class)->group(function(){
 
 Route::middleware('auth:sanctum')->group(function () {
     //
-    Route::get('/me', [AuthController::class, 'me']);
+    Route::controller(AuthController::class)->group(function(){
+        Route::get('me', 'me');
+        Route::post('logout', 'logout');
+    });
+
+    //
     Route::get('/learning-progress', [LearningProgressController::class, 'index']);
-    Route::post('/logout', [AuthController::class, 'logout']);   
+
+    //
+    Route::apiResource('lenguajes', LenguajeController::class);
+    Route::apiResource('levels', LevelController::class);
+    Route::apiResource('modules', ModuleController::class);
+    Route::apiResource('lessons', LessonController::class);
+
+    //
 });
 
-Route::post('/generate-text', [OpenAIController::class, 'generate']);
-
-// 
-Route::apiResource('lenguajes', LenguajeController::class);
-Route::apiResource('levels', LevelController::class);
-Route::apiResource('modules', ModuleController::class);
-Route::apiResource('lessons', LessonController::class);
-
+Route::controller(OpenAIController::class)->group(function(){
+    Route::post('generate-text', 'generate');
+    Route::post('analyze-audio', 'analyzeAudio');
+});

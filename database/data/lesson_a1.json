@@ -1,376 +1,146 @@
 {
   "lesson": {
-    "title": "Lesson Title",
+    "title": "Greetings and Introductions",
     "order": 1,
-    "descripction": "Description of the lesson",
-    "grammar_topic": "Basic Grammar Topic",
+    "descripction": "Learn how to greet people formally and informally, and introduce yourself in everyday situations.",
+    "grammar_topic": "Verb 'to be' and WH-questions",
     "experience_points": 100,
     "introduction": {
-      "objective": "Learn basic vocabulary and grammar related to ...",
+      "objective": "Learn how to greet others in different contexts and introduce yourself with confidence.",
       "vocabulary": [
-        "word1",
-        "word2",
-        "word3",
-        "word4",
-        "word5"
+        "hello",
+        "hi",
+        "good morning",
+        "goodbye",
+        "nice to meet you"
       ],
       "verbs": [
-        "verb1",
-        "verb2"
+        "to be",
+        "to meet"
       ],
       "native_expression": {
-        "expression": "Simple Expression",
-        "example": "Example usage"
+        "expression": "What's up?",
+        "example": "What's up? Not much, just chilling."
       },
-      "grammar": "Simple explanation of grammar topic"
+      "grammar": "The verb 'to be' is used for introductions: I am, you are, etc."
     },
     "vocabulary_presentation": {
       "words": [
         {
-          "word": "word1",
-          "translation": "translation1",
-          "image": "image1.jpg",
-          "audio": "audio1.mp3"
+          "word": "hello",
+          "translation": "hola",
+          "image": "hello.jpg",
+          "audio": "hello.mp3"
         },
         {
-          "word": "word2",
-          "translation": "translation2",
-          "image": "image2.jpg",
-          "audio": "audio2.mp3"
+          "word": "goodbye",
+          "translation": "adiós",
+          "image": "goodbye.jpg",
+          "audio": "goodbye.mp3"
         },
         {
-          "word": "word3",
-          "translation": "translation3",
-          "image": "image3.jpg",
-          "audio": "audio3.mp3"
-        },
-        {
-          "word": "word4",
-          "translation": "translation4",
-          "image": "image4.jpg",
-          "audio": "audio4.mp3"
-        },
-        {
-          "word": "word5",
-          "translation": "translation5",
-          "image": "image5.jpg",
-          "audio": "audio5.mp3"
+          "word": "nice to meet you",
+          "translation": "mucho gusto",
+          "image": "meet_you.jpg",
+          "audio": "meet_you.mp3"
         }
       ],
       "verbs": [
         {
-          "verb": "verb1",
-          "translation": "translation1",
-          "example": "example sentence"
+          "verb": "to be",
+          "translation": "ser/estar",
+          "example": "I am happy."
         },
         {
-          "verb": "verb2",
-          "translation": "translation2",
-          "example": "example sentence"
+          "verb": "to meet",
+          "translation": "conocer",
+          "example": "Nice to meet you."
         }
       ],
       "native_expression": {
-        "expression": "expression",
-        "meaning": "meaning",
-        "example": "example usage"
+        "expression": "What's up?",
+        "meaning": "A casual greeting",
+        "example": "What's up? Not much, just relaxing."
       }
     },
     "vocabulary_practice": {
       "flashcards": [
         {
-          "word": "word1",
-          "translation": "translation1"
+          "word": "hello",
+          "translation": "hola"
         },
         {
-          "word": "word2",
-          "translation": "translation2"
-        },
-        {
-          "word": "word3",
-          "translation": "translation3"
-        },
-        {
-          "word": "word4",
-          "translation": "translation4"
-        },
-        {
-          "word": "word5",
-          "translation": "translation5"
+          "word": "goodbye",
+          "translation": "adiós"
         }
       ],
       "matching": [
         {
-          "word": "word1",
-          "image": "image1.jpg"
+          "word": "hello",
+          "image": "hello.jpg"
         },
         {
-          "word": "word2",
-          "image": "image2.jpg"
-        },
-        {
-          "word": "word3",
-          "image": "image3.jpg"
-        },
-        {
-          "word": "word4",
-          "image": "image4.jpg"
-        },
-        {
-          "word": "word5",
-          "image": "image5.jpg"
+          "word": "goodbye",
+          "image": "goodbye.jpg"
         }
       ],
       "fill_in_the_blanks": [
         {
-          "sentence": "Sentence with ___ (word1)",
-          "correct_answer": "word1"
+          "sentence": "___ (Hello), how are you?",
+          "correct_answer": "Hello"
         },
         {
-          "sentence": "Sentence with ___ (word2)",
-          "correct_answer": "word2"
-        },
-        {
-          "sentence": "Sentence with ___ (word3)",
-          "correct_answer": "word3"
-        },
-        {
-          "sentence": "Sentence with ___ (word4)",
-          "correct_answer": "word4"
-        },
-        {
-          "sentence": "Sentence with ___ (word5)",
-          "correct_answer": "word5"
+          "sentence": "It was nice to ___ you.",
+          "correct_answer": "meet"
         }
       ]
     },
     "grammar_introduction": {
-      "explanation": "Simple explanation of grammar topic",
+      "explanation": "The verb 'to be' is used to talk about names and introductions. For example, 'I am Sarah'.",
       "examples": [
         {
-          "sentence": "example sentence",
-          "translation": "translation"
+          "sentence": "I am John.",
+          "translation": "Yo soy John."
         },
         {
-          "sentence": "example sentence",
-          "translation": "translation"
-        },
-        {
-          "sentence": "example sentence",
-          "translation": "translation"
+          "sentence": "She is Maria.",
+          "translation": "Ella es María."
         }
       ],
       "practice": [
         {
-          "sentence": "Practice sentence with ___ (grammar)",
-          "correct_answer": "correct answer"
+          "sentence": "I ___ (to be) Sarah.",
+          "correct_answer": "am"
         },
         {
-          "sentence": "Practice sentence with ___ (grammar)",
-          "correct_answer": "correct answer"
-        },
-        {
-          "sentence": "Practice sentence with ___ (grammar)",
-          "correct_answer": "correct answer"
-        }
-      ]
-    },
-    "written_practice": {
-      "translation": [
-        {
-          "sentence": "simple sentence to translate",
-          "correct_answer": "correct translation"
-        },
-        {
-          "sentence": "simple sentence to translate",
-          "correct_answer": "correct translation"
-        },
-        {
-          "sentence": "simple sentence to translate",
-          "correct_answer": "correct translation"
-        }
-      ],
-      "fill_in_the_blanks": [
-        {
-          "sentence": "Simple sentence with ___ (grammar)",
-          "correct_answer": "correct answer"
-        },
-        {
-          "sentence": "Simple sentence with ___ (grammar)",
-          "correct_answer": "correct answer"
-        },
-        {
-          "sentence": "Simple sentence with ___ (grammar)",
-          "correct_answer": "correct answer"
-        }
-      ],
-      "examples_generated_by_chatgpt": [
-        {
-          "sentence": "Generated simple sentence",
-          "correct_answer": "correct translation"
-        },
-        {
-          "sentence": "Generated simple sentence",
-          "correct_answer": "correct translation"
-        },
-        {
-          "sentence": "Generated simple sentence",
-          "correct_answer": "correct translation"
+          "sentence": "He ___ (to be) a teacher.",
+          "correct_answer": "is"
         }
       ]
     },
     "listening_practice": {
-      "audio": "short audio file",
+      "audio": "greetings_audio.mp3",
       "comprehension_questions": [
         {
-          "question": "simple question",
-          "correct_answer": "answer"
-        },
-        {
-          "question": "simple question",
-          "correct_answer": "answer"
-        },
-        {
-          "question": "simple question",
-          "correct_answer": "answer"
+          "question": "What does the speaker say after 'hello'?",
+          "correct_answer": "How are you?"
         }
       ],
-      "transcription": "transcription of short audio"
+      "transcription": "Hello! How are you?"
     },
     "oral_practice": {
       "repetition": [
         {
-          "sentence": "simple sentence to repeat",
-          "audio": "audio file"
-        },
-        {
-          "sentence": "simple sentence to repeat",
-          "audio": "audio file"
-        },
-        {
-          "sentence": "simple sentence to repeat",
-          "audio": "audio file"
+          "sentence": "Hello, nice to meet you.",
+          "audio": "hello_nice_to_meet_you.mp3"
         }
       ],
       "recording": [
         {
-          "sentence": "simple sentence to record",
-          "audio": "recorded audio"
-        },
-        {
-          "sentence": "simple sentence to record",
-          "audio": "recorded audio"
-        },
-        {
-          "sentence": "simple sentence to record",
-          "audio": "recorded audio"
-        }
-      ],
-      "evaluation": [
-        {
-          "feedback": "feedback on pronunciation"
-        },
-        {
-          "feedback": "feedback on pronunciation"
-        },
-        {
-          "feedback": "feedback on pronunciation"
+          "sentence": "Hello, how are you?",
+          "audio": "recording_audio.mp3"
         }
       ]
-    },
-    "feedback_and_improvement": {
-      "pronunciation_correction": [
-        {
-          "word": "word",
-          "correction": "correct pronunciation"
-        },
-        {
-          "word": "word",
-          "correction": "correct pronunciation"
-        },
-        {
-          "word": "word",
-          "correction": "correct pronunciation"
-        }
-      ],
-      "suggestion_of_formulation": [
-        {
-          "sentence": "simple suggested sentence",
-          "correction": "better formulation"
-        },
-        {
-          "sentence": "simple suggested sentence",
-          "correction": "better formulation"
-        },
-        {
-          "sentence": "simple suggested sentence",
-          "correction": "better formulation"
-        }
-      ],
-      "improvement_tips": [
-        {
-          "tip": "simple tip for improvement"
-        },
-        {
-          "tip": "simple tip for improvement"
-        },
-        {
-          "tip": "simple tip for improvement"
-        }
-      ]
-    },
-    "additional_practice_and_review": {
-      "interactive_games": [
-        {
-          "game": "simple game type",
-          "words": [
-            "word1",
-            "word2",
-            "word3",
-            "word4",
-            "word5"
-          ]
-        },
-        {
-          "game": "simple game type",
-          "words": [
-            "word1",
-            "word2",
-            "word3",
-            "word4",
-            "word5"
-          ]
-        }
-      ],
-      "review_materials": [
-        {
-          "material": "simple material type",
-          "content": "content description"
-        },
-        {
-          "material": "simple material type",
-          "content": "content description"
-        }
-      ]
-    },
-    "user_progress": {
-      "status": "not_started",
-      "score": 0,
-      "experience_gained": 0,
-      "responses": {
-        "questions": [
-          {
-            "question": "Question 1",
-            "user_answer": "User's answer",
-            "correct_answer": "Correct answer"
-          },
-          {
-            "question": "Question 2",
-            "user_answer": "User's answer",
-            "correct_answer": "Correct answer"
-          }
-        ]
-      },
-      "timestamp": "2024-08-30T14:30:00Z"
     }
   }
 }
